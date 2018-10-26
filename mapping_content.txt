@@ -1,0 +1,33 @@
+papers.csv
+Paper Id == data.Paper number
+Title == data.Title
+,Abstract == data.Abstract
+,Type ==
+,Award (BEST_PAPER/HONORABLE_MENTION or leave empty) ==
+,Author ID (Separate authors with semicolon) ==
+
+
+
+people.csv
+User Id ==
+,First name
+,Middle initial
+,Last name
+
+
+sessions.csv
+Session ID,
+Name,
+Type,
+Date (yyyy-MM-dd),
+Start time (HH:mm in 24-h format),
+End time (HH:mm in 24-h format),
+Room,
+Paper Ids (Separate papers with semicolon),
+Session Chair Ids (Separate chairs with semicolon)
+
+affiliations
+Paper Id,User Id,Institution (Separate institutions with semicolon)
+
+
+1:44pm
