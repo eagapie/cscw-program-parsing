@@ -7,22 +7,99 @@ def get_confer_data():
 
     # list of rows in the DATA sheet
     paper_list = []
-    with open('confer_data.csv', encoding="latin-1") as r_events:
-        reader = csv.DictReader(r_events, delimiter=',', quotechar='"')
+    with open('confer_data.csv', encoding="utf-8") as r_papers:
+        reader = csv.DictReader(r_papers, delimiter=',', quotechar='"')
         for row in reader:
             paper_list.append(row)
 
         write_people_file(paper_list)
         write_sessions_file(paper_list)
         write_affiliations_file(paper_list)
+        write_papers_file(paper_list)
+
+# generate author list ids based on the row entry for this paper
+def generate_author_list(row):
+    author_list = []
+
+    # through the 16 possible authors and generate list of authors
+    for i in range(1, 17):
+        if (row["Author " + str(i) + " - last"] != ""):
+            new_author = {}
+            new_author["First name"] = row["Author " + str(i) + " - first"]
+            new_author["Middle initial"] = row["Author " + str(i) + " - middle"]
+            new_author["Last name"] = row["Author " + str(i) + " - last"]
+            author_list.append(new_author)
+
+    # read the people list from people.csv
+    people_list = []
+    with open('people.csv', encoding="utf-8") as r_people:
+        people_reader = csv.DictReader(r_people, delimiter=',', quotechar='"')
+        for row in people_reader:
+            people_list.append(row)
+
+    author_ids = ""
+    # get the author id from people list
+    for item_people in people_list:
+        for item_author in author_list:
+            if (item_author["First name"] == item_people["First name"] and
+                item_author["Middle initial"] == item_people["Middle initial"] and
+                item_author["Last name"] == item_people["Last name"]):
+                # append author id to the list of author ids
+                author_ids = item_people["User Id"] + ";" + author_ids
+
+    # strip the last semicolon
+    author_ids = author_ids.strip(";")
+    return author_ids
 
 
+# generates the papers.csv file
+def write_papers_file(paper_list):
+    with open('papers.csv', 'w', encoding="utf-8") as papers_file:
+        fieldnames = [
+            "﻿Paper Id",
+            "Title",
+            "Abstract",
+            "Type", # Mauro said:  you can set it all to "paper".
+            "Award", #  (BEST_PAPER/HONORABLE_MENTION or leave empty)
+            "Author ID", # (Separate authors with semicolon)
+        ]
+
+        writer_papers = csv.DictWriter(papers_file, fieldnames=fieldnames)
+
+        # adds the header row to the file
+        head_row={}
+        for item in fieldnames:
+            head_row[item] = item
+        writer_papers.writerow(head_row)
+
+        # go through each item in the paper list and create the row for papers.csv
+        for row in paper_list:
+            new_row = {}
+
+            new_row["﻿Paper Id"] = row["Paper Number"]
+            new_row["Title"] = row["Title"]
+            new_row["Abstract"] = row["Abstract"]
+            new_row["Type"] = "Papers" # Mauro said:  you can set it all to "paper".
+            new_row["Award"] = row["Award"]
+            new_row["Author ID"] = generate_author_list(row)
+            writer_papers.writerow(new_row)
+
+# check if the new author exists in the author list already or # NOTE:
+def is_new_entry_in_author_list(new_author, author_list):
+    for item in author_list:
+        if(new_author["First name"] == item["First name"] and
+            new_author["Middle initial"] == item["Middle initial"] and
+            new_author["Last name"] == item["Last name"]):
+            return False # this author has been found, return false
+
+    # the author was not found in the list
+    return True
 
 # generates the people.csv file
 def write_people_file(paper_list):
     with open('people.csv', 'w', encoding="utf-8") as people_file:
         fieldnames = [
-            "User Id",
+            "User Id", # we generate this, it doesn't come from the DATA sheet
             "First name",
             "Middle initial",
             "Last name"
@@ -37,20 +114,26 @@ def write_people_file(paper_list):
         writer_people.writerow(head_row)
 
         # list of authors
-        author_list =[]
+        author_list = []
 
+        author_index = 0
         # go through each item in the paper list and extract the authors
         for row in paper_list:
             for i in range(1, 17):
+                author_index = author_index + 1
                 author = {}
                 if (row["Author " + str(i) + " - last"] != ""):
                     # new_row will have the values that need to be added in the people file for this row
                     new_row = {}
-                    new_row["User Id"] = "TODO User Id" # TODO this needs to get replaced with whatever value should go here
+                    new_row["User Id"] = author_index # TODO this needs to get replaced with whatever value should go here
                     new_row["First name"] = row["Author " + str(i) + " - first"]
                     new_row["Middle initial"] = row["Author " + str(i) + " - middle"]
                     new_row["Last name"] = row["Author " + str(i) + " - last"]
-                    writer_people.writerow(new_row)
+                    if (is_new_entry_in_author_list(new_row, author_list)):
+                        author_list.append(new_row)
+
+        for item in author_list:
+            writer_people.writerow(item)
 
 # output: a list of affiliations separated by semicolon
 # input of the type: Zhicong Lu: University of Toronto; Seongkook Heo: University of Toronto; Daniel J Wigdor: University of Toronto
@@ -65,6 +148,8 @@ def parse_affiliations(text):
                     affiliation = temp_affiliation[1]
                     affiliation_str =  affiliation + '; ' + affiliation_str
 
+    # strip the ; at the end
+    affiliation_str = affiliation_str.strip(" ").strip(";")
     return(affiliation_str)
 
 # generates the affiliations.csv file
@@ -139,7 +224,7 @@ def write_sessions_file(paper_list):
         fieldnames = [
             "Session ID",
             "Name",
-            "Type",
+            "Type", # Mauro said we can set all to Papers
             "Date (yyyy-MM-dd)",
             "Start time (HH:mm in 24-h format)",
             "End time (HH:mm in 24-h format)",
@@ -155,9 +240,6 @@ def write_sessions_file(paper_list):
             head_row[item] = item
         writer_session.writerow(head_row)
 
-        # list of session
-        session_list = []
-
         session = {}
         # initialize the data for all the session
         for row in paper_list:
@@ -170,7 +252,7 @@ def write_sessions_file(paper_list):
         # go through the list of papers and add each paper that matches this particular session number
         for row in paper_list:
             session[row["S #"]]["Name"] = row["S Name"]
-            session[row["S #"]]["Type"] = "TODO_Type" # TODO this needs to be updated with the appropriate infor
+            session[row["S #"]]["Type"] = "Papers" # TODO this needs to be updated with the appropriate infor
             session[row["S #"]]["Date (yyyy-MM-dd)"] = parse_date(row["Day"])
             session[row["S #"]]["Start time (HH:mm in 24-h format)"] = parse_time(row["Session Start Time"])
             session[row["S #"]]["End time (HH:mm in 24-h format)"] = parse_time(row["S End"])
