@@ -11,11 +11,10 @@ def get_confer_data():
         reader = csv.DictReader(r_events, delimiter=',', quotechar='"')
         for row in reader:
             paper_list.append(row)
-    # for row in paper_list:
-    #     print(row['Paper Number'], row["Title"], row["S Name"])
 
         write_people_file(paper_list)
         write_sessions_file(paper_list)
+        write_affiliations_file(paper_list)
 
 
 
@@ -53,6 +52,49 @@ def write_people_file(paper_list):
                     new_row["Last name"] = row["Author " + str(i) + " - last"]
                     writer_people.writerow(new_row)
 
+# output: a list of affiliations separated by semicolon
+# input of the type: Zhicong Lu: University of Toronto; Seongkook Heo: University of Toronto; Daniel J Wigdor: University of Toronto
+def parse_affiliations(text):
+    affiliation_str = ""
+    temp = text.split(";") # separates all author:affiliation
+    if(temp):
+        for item in temp:
+            if (item != "NA"):
+                if(item[1] != ""):
+                    temp_affiliation = item.split(":")  # separates
+                    affiliation = temp_affiliation[1]
+                    affiliation_str =  affiliation + '; ' + affiliation_str
+
+    return(affiliation_str)
+
+# generates the affiliations.csv file
+def write_affiliations_file(paper_list):
+    with open('affiliations.csv', 'w', encoding="utf-8") as affiliations_file:
+        fieldnames = [
+            "Paper Id",
+            "User Id",
+            "Institution",
+        ]
+
+        writer_affiliations = csv.DictWriter(affiliations_file, fieldnames=fieldnames)
+
+        # adds the header row to the file
+        head_row={}
+        for item in fieldnames:
+            head_row[item] = item
+        writer_affiliations.writerow(head_row)
+
+        # affiliations dictionary by paper id
+        affiliations = {}
+
+        # go through each item in the paper list and extract the affiliations
+        for row in paper_list:
+            new_row = {}
+            new_row["Paper Id"] = row["Paper Number"]
+            new_row["User Id"] = "TODO User Id" # TODO this needs to get replaced with whatever value should go here
+            new_row["Institution"] = parse_affiliations(row["ACM Author Affiliations"])
+            writer_affiliations.writerow(new_row)
+
 def initialize_session(session_id):
     session = {}
     session["Session ID"] = session_id
@@ -78,7 +120,6 @@ def parse_date(mydate):
 # the input is in the format "11:00 AM"
 def parse_time(time):
     temp = time.split(" ")
-    print(temp)
     if (temp[1] == "AM"):
         new_time = temp[0]
     if (temp[1] == "PM"):
@@ -88,7 +129,6 @@ def parse_time(time):
         if(pm_time[0] != "12"):
             pm_time[0] = int(pm_time[0]) + 12
         new_time = str(pm_time[0]) + ":" + pm_time[1]
-    print(time, new_time)
     return new_time
 
 
