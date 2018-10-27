@@ -137,8 +137,9 @@ def write_people_file(paper_list):
 
 # output: a list of affiliations separated by semicolon
 # input of the type: Zhicong Lu: University of Toronto; Seongkook Heo: University of Toronto; Daniel J Wigdor: University of Toronto
-def parse_affiliations(text):
+def parse_affiliations(text, paper_id):
     affiliation_str = ""
+    affiliation_list = []
     temp = text.split(";") # separates all author:affiliation
     if(temp):
         for item in temp:
@@ -146,7 +147,17 @@ def parse_affiliations(text):
                 if(item[1] != ""):
                     temp_affiliation = item.split(":")  # separates
                     affiliation = temp_affiliation[1]
-                    affiliation_str =  affiliation + '; ' + affiliation_str
+                    affiliation_list.append(affiliation)
+                    # when the affiliation is not actually listed
+                    # if(temp_affiliation[1] == ""):
+                    #     print(paper_id + ",")
+
+    # create uniques list of affiliations
+    unique_affiliation = []
+    for item in affiliation_list:
+        if item not in unique_affiliation:
+            unique_affiliation.append(item)
+            affiliation_str =  item + '; ' + affiliation_str
 
     # strip the ; at the end
     affiliation_str = affiliation_str.strip(" ").strip(";")
@@ -177,7 +188,7 @@ def write_affiliations_file(paper_list):
             new_row = {}
             new_row["Paper Id"] = row["Paper Number"]
             new_row["User Id"] = "TODO User Id" # TODO this needs to get replaced with whatever value should go here
-            new_row["Institution"] = parse_affiliations(row["ACM Author Affiliations"])
+            new_row["Institution"] = parse_affiliations(row["ACM Author Affiliations"], row["Paper Number"])
             writer_affiliations.writerow(new_row)
 
 def initialize_session(session_id):
