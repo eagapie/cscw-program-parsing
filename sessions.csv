@@ -1,2 +1,86 @@
-﻿Session ID,Name,Type,Date (yyyy-MM-dd),Start time (HH:mm in 24-h format),End time (HH:mm in 24-h format),Room,Paper Ids (Separate papers with semicolon),Session Chair Ids (Separate chairs with semicolon)
-
+Session ID,Name,Type,Date (yyyy-MM-dd),Start time (HH:mm in 24-h format),End time (HH:mm in 24-h format),Room,Paper Ids,Session Chair Ids
+30,Sustainability and Local Action,TODO_Type,2018-11-06,11:00,12:30,"Hudson IV,V,VI",9233;9231;9232;9229;9230;,TODO_chair
+34,"Ratings, Comments, and Feedback",TODO_Type,2018-11-06,11:00,12:30,Palisades,9287;9284;9285;9288;9286;,TODO_chair
+16,Learning,TODO_Type,2018-11-05,16:30,18:00,Harborside II,9049;9050;9053;9051;9052;,TODO_chair
+26,Motivation in Online Collaboration,TODO_Type,2018-11-06,09:00,10:30,Palisades,9023;9022;9021;9020;9024;,TODO_chair
+9,Team-Based Communication,TODO_Type,2018-11-05,14:30,16:00,Harborside I,9183;9180;9179;9182;9181;,TODO_chair
+1,Citizen Science and Scientific Research,TODO_Type,2018-11-05,11:00,12:30,Harborside I,9148;9144;9145;9147;9146;,TODO_chair
+24,Computer-Mediated Communication,TODO_Type,2018-11-06,09:00,10:30,Riverside,9124;9127;9125;9128;9126;,TODO_chair
+13,Crisis Informatics,TODO_Type,2018-11-05,14:30,16:00,"Hudson IV,V,VI",9141;9143;9142;9140;9139;,TODO_chair
+39,Workers and Employees,TODO_Type,2018-11-06,14:30,16:00,Harborside I,9192;9190;9189;9191;9193;,TODO_chair
+17,Genders,TODO_Type,2018-11-05,16:30,18:00,Riverside,9058;9057;9054;9055;9056;,TODO_chair
+42,Urban Spaces,TODO_Type,2018-11-06,14:30,16:00,Riverside,9240;9243;9239;9242;9241;,TODO_chair
+28,Privacy in Homes and Groups,TODO_Type,2018-11-06,09:00,10:30,Harborside II,9040;9042;9043;9041;9044;,TODO_chair
+40,"Touch, Distance, and Companionship",TODO_Type,2018-11-06,14:30,16:00,"Hudson IV,V,VI",9130;9129;9133;9132;9131;,TODO_chair
+19,Transactions and Currencies,TODO_Type,2018-11-05,16:30,18:00,Liberty,9245;9246;9248;9244;9247;,TODO_chair
+54,Software & Collaborative Coding,TODO_Type,2018-11-07,11:00,12:30,Harborside I,9237;9238;9236;9235;9234;,TODO_chair
+29,Collaborative Working and Design,TODO_Type,2018-11-06,11:00,12:30,Harborside II,9283;9279;9282;9280;9281;,TODO_chair
+49,Crowdsourcing,TODO_Type,2018-11-07,09:00,10:30,Palisades,9028;9027;9025;9029;9026;,TODO_chair
+47,Collaboration in Online Communities,TODO_Type,2018-11-07,09:00,10:30,"Hudson I,II,III",9060;9059;9063;9062;9061;,TODO_chair
+46,Overcoming Barriers,TODO_Type,2018-11-07,09:00,10:30,Harborside I,9218;9216;9215;9217;9214;,TODO_chair
+10,Emotion and Biosensing,TODO_Type,2018-11-05,14:30,16:00,"Hudson I,II,III",9268;9265;9264;9266;9267;,TODO_chair
+23,Relationships across Platforms,TODO_Type,2018-11-06,09:00,10:30,"Hudson IV,V,VI",9007;9006;9005;9009;9008;,TODO_chair
+53,Classification and Labels,TODO_Type,2018-11-07,11:00,12:30,Harborside II,9156;9158;9155;9154;9157;,TODO_chair
+60,Patients and Clinical Settings,TODO_Type,2018-11-07,14:30,16:00,Harborside II,9086;9085;9084;9088;9087;,TODO_chair
+41,Crowdsourcing Systems,TODO_Type,2018-11-06,14:30,16:00,Palisades,9161;9160;9162;9163;9159;,TODO_chair
+45,Health and Relationships,TODO_Type,2018-11-07,09:00,10:30,"Hudson IV,V,VI",9103;9101;9100;9099;9102;,TODO_chair
+27,Social Support and Care,TODO_Type,2018-11-06,09:00,10:30,Liberty,9134;9136;9135;9138;9137;,TODO_chair
+18,Chatting and Livestreaming,TODO_Type,2018-11-05,16:30,18:00,"Hudson I,II,III",9171;9170;9169;9173;9172;,TODO_chair
+50,Privacy and Security,TODO_Type,2018-11-07,09:00,10:30,Riverside,9033;9032;9031;9030;9034;,TODO_chair
+3,Hashtags and Social Movements,TODO_Type,2018-11-05,11:00,12:30,Riverside,9260;9259;9262;9261;9263;,TODO_chair
+12,Research Methods,TODO_Type,2018-11-05,14:30,16:00,Palisades,9150;9151;9152;9149;9153;,TODO_chair
+55,Credibility and Misinformation,TODO_Type,2018-11-07,11:00,12:30,Liberty,9095;9096;9094;9098;9097;,TODO_chair
+63,Online Discussion and Engagement,TODO_Type,2018-11-07,14:30,16:00,Palisades,9112;9110;9109;9111;9113;,TODO_chair
+25,Feminist Perspectives,TODO_Type,2018-11-06,09:00,10:30,"Hudson I,II,III",9108;9106;9104;9105;9107;,TODO_chair
+21,Privacy in Social Media,TODO_Type,2018-11-05,16:30,18:00,"Hudson IV,V,VI",9039;9035;9037;9038;9036;,TODO_chair
+61,Cross-Cultural Perspectives,TODO_Type,2018-11-07,14:30,16:00,"Hudson IV,V,VI",9168;9167;9165;9166;9164;,TODO_chair
+6,Social Media in the Wild,TODO_Type,2018-11-05,11:00,12:30,Liberty,9187;9186;9185;9188;9184;,TODO_chair
+37,Collaboration in Clinical Contexts,TODO_Type,2018-11-06,14:30,16:00,"Hudson I,II,III",9122;9119;9121;9123;9120;,TODO_chair
+48,Production and Productivity,TODO_Type,2018-11-07,09:00,10:30,Harborside II,9211;9209;9212;9213;9210;,TODO_chair
+36,Fairness and Bias,TODO_Type,2018-11-06,14:30,16:00,Liberty,9065;9064;9066;9068;9067;,TODO_chair
+31,Disclosure and Anonymity,TODO_Type,2018-11-06,11:00,12:30,Liberty,9083;9080;9082;9079;9081;,TODO_chair
+8,Sharing Economy,TODO_Type,2018-11-05,14:30,16:00,Riverside,9073;9071;9070;9069;9072;,TODO_chair
+15,Data in Diverse Settings,TODO_Type,2018-11-05,16:30,18:00,Palisades,9253;9251;9252;9250;9249;,TODO_chair
+51,Online Community Engagement,TODO_Type,2018-11-07,11:00,12:30,Riverside,9275;9274;9278;9277;9276;,TODO_chair
+38,Meetings and Decision Making,TODO_Type,2018-11-06,14:30,16:00,Harborside II,9226;9225;9224;9227;9228;,TODO_chair
+59,Presence and Distance,TODO_Type,2018-11-07,14:30,16:00,Riverside,9293;9290;9289;9291;9292;,TODO_chair
+44,Bots and Online Communities,TODO_Type,2018-11-07,09:00,10:30,Liberty,9045;9048;9047;9046;,TODO_chair
+14,"Children, Teens, and Young Adults",TODO_Type,2018-11-05,14:30,16:00,Harborside II,9203;9199;9202;9200;9201;,TODO_chair
+52,Disability and Accessibility,TODO_Type,2018-11-07,11:00,12:30,Palisades,9014;9013;9011;9010;9012;,TODO_chair
+62,Sharing and Collaboration,TODO_Type,2018-11-07,14:30,16:00,Liberty,9220;9219;9222;9223;9221;,TODO_chair
+56,Norms and Rules in Online Communities,TODO_Type,2018-11-07,11:00,12:30,"Hudson IV,V,VI",9256;9254;9255;9257;9258;,TODO_chair
+5,Language and Linguistics,TODO_Type,2018-11-05,11:00,12:30,"Hudson IV,V,VI",9205;9204;9208;9207;9206;,TODO_chair
+11,Civic engagement and Hacking,TODO_Type,2018-11-05,14:30,16:00,Liberty,9117;9116;9115;9114;9118;,TODO_chair
+20,Organizational Perspectives,TODO_Type,2018-11-05,16:30,18:00,Harborside I,9269;9271;9272;9270;9273;,TODO_chair
+32,Wikipedia,TODO_Type,2018-11-06,11:00,12:30,Riverside,9197;9194;9198;9196;9195;,TODO_chair
+4,Online Harassment and Content Moderation,TODO_Type,2018-11-05,11:00,12:30,Palisades,9176;9174;9175;9178;9177;,TODO_chair
+58,Conceptual Horizons,TODO_Type,2018-11-07,14:30,16:00,Harborside I,9017;9015;9019;9018;9016;,TODO_chair
+2,Health and Self-Tracking,TODO_Type,2018-11-05,11:00,12:30,Harborside II,9075;9074;9078;9077;9076;,TODO_chair
+33,Information Sharing,TODO_Type,2018-11-06,11:00,12:30,Harborside I,9091;9089;9092;9093;9090;,TODO_chair
+22,Feedback and Sense-Making,TODO_Type,2018-11-06,09:00,10:30,Harborside I,9004;9002;9001;9000;9003;,TODO_chair
+7,Panel: Online Fandom: Boldly Going Where Few CSCW Researchers Have Gone Before,TODO_Type,2018-11-05,11:00,12:30,"Hudson I,II,III",9294;,TODO_chair
+57,Panel: Without a Trace: How Studying Invisible Interactions Can Help Us Understand Social Media,TODO_Type,2018-11-07,11:00,12:30,"Hudson I,II,III",9295;,TODO_chair
+64,Panel: Computer-Supported Career Development in The Future of Work,TODO_Type,2018-11-07,14:30,16:00,"Hudson I,II,III",9296;,TODO_chair
+35,Panel: CSCW Research Ethics and Regulation: An Open Forum,TODO_Type,2018-11-06,11:00,12:30,"Hudson I,II,III",9297;,TODO_chair
+65,Workshop: Latin America as a Place for CSCW Research,TODO_Type,2018-11-03,09:00,17:00,Pallisades II,9400;,TODO_chair
+66,"Workshop: Data Work in Healthcare: Challenges for Patients, Clinicians and ...",TODO_Type,2018-11-03,09:00,17:00,Palisades I,9401;,TODO_chair
+67,Workshop: The Industrial Internet of Things: New Perspectives on HCI and CSCW ...,TODO_Type,2018-11-03,09:00,17:00,Liberty II,9402;,TODO_chair
+68,Workshop: Privacy in Context: Critically Engaging Theories to Guide Privacy Research ...,TODO_Type,2018-11-03,09:00,17:00,Liberty III,9403;,TODO_chair
+69,"Workshop: Conducting Research with Stigmatized Populations: Practices, Challenges ...",TODO_Type,2018-11-03,09:00,17:00,Liberty I,9404;,TODO_chair
+70,"Workshop: Power Struggles in the Digital Economy: Platforms, Workers, and Markets",TODO_Type,2018-11-03,09:00,17:00,Harborside II,9405;,TODO_chair
+71,"Workshop: The Changing Contours of âParticipationâ in Data-driven, Algorithmic ...",TODO_Type,2018-11-03,09:00,17:00,Harborside I,9406;,TODO_chair
+72,Workshop: Navigating the Challenges of Multi-Site Research,TODO_Type,2018-11-03,09:00,17:00,Manhattan I,9407;,TODO_chair
+73,Workshop: Sociotechnical Systems of Care,TODO_Type,2018-11-04,09:00,17:00,Palissades II,9408;,TODO_chair
+74,Workshop: Hybrid events: mediating collocated participation,TODO_Type,2018-11-04,09:00,17:00,Palisades I,9409;,TODO_chair
+75,Workshop: Collaborative Mixed Reality Games,TODO_Type,2018-11-04,09:00,17:00,Lyberty II,9410;,TODO_chair
+76,"Workshop: Social Issues in Personal Informatics: Design, Data, and Infrastructure",TODO_Type,2018-11-04,09:00,17:00,Liberty III,9411;,TODO_chair
+77,Workshop: Solidarity Across Borders: Navigating Intersections Towards Equity and ...,TODO_Type,2018-11-04,09:00,17:00,Liberty I,9412;,TODO_chair
+78,Workshop: Accessible Voice Interfaces,TODO_Type,2018-11-04,09:00,17:00,Harborside II,9413;,TODO_chair
+79,Doctoral Colloquium,TODO_Type,2018-11-04,09:00,18:00,Manhattan I,9415;9414;,TODO_chair
+80,Welcome Reception,TODO_Type,2018-11-04,17:00,19:00,Manhattan Ballroom and Prefunction,9416;,TODO_chair
+81,Opening and Keynote (Emily Bell),TODO_Type,2018-11-05,09:00,10:30,Hudson Ballroom,9417;,TODO_chair
+82,Interactive Posters and Demos Reception,TODO_Type,2018-11-05,18:00,20:00,Manhattan Ballroom and Prefunction,9418;,TODO_chair
+83,Town Hall Meeting,TODO_Type,2018-11-06,13:30,14:30,Hudson Ballroom,9419;,TODO_chair
+84,Lasting Impact,TODO_Type,2018-11-06,16:30,17:30,Hudson Ballroom,9420;,TODO_chair
+85,Conference Banquet ,TODO_Type,2018-11-06,18:00,20:00,Liberty Science Museum,9421;,TODO_chair
+86,Closing and Keynote (Natasha Dow SchÃ¼ll),TODO_Type,2018-11-07,16:30,18:00,Hudson Ballroom,9422;,TODO_chair
