@@ -7,7 +7,7 @@ def get_confer_data():
 
     # list of rows in the DATA sheet
     paper_list = []
-    with open('confer_data.csv', encoding="utf-8") as r_papers:
+    with open('confer_data_with_authors.csv', encoding="utf-8") as r_papers:
         reader = csv.DictReader(r_papers, delimiter=',', quotechar='"')
         for row in reader:
             paper_list.append(row)
@@ -275,7 +275,7 @@ def get_first_author_id(paper_id):
     last_name = ""
 
     paper_list = []
-    with open('confer_data.csv', encoding="utf-8") as r_papers:
+    with open('confer_data_with_authors.csv', encoding="utf-8") as r_papers:
         reader = csv.DictReader(r_papers, delimiter=',', quotechar='"')
         for row in reader:
             if(paper_id == row["Paper Number"]):
@@ -379,6 +379,7 @@ def write_sessions_file(paper_list):
             session[row["S #"]]["Session Chair Ids"] = str(session_chairs_dict[row["S #"]]["Session Chair Ids"]).strip(";")
             # print(session_chairs_dict[row["S #"]]["Session Chair Ids"])
         for key in session:
+            session[key]["Paper Ids"] = session[key]["Paper Ids"].strip(";")
             writer_session.writerow(session[key])
 
 

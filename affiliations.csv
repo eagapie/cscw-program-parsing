@@ -2,11 +2,11 @@ Paper Id,User Id,Institution
 9230,1,KTH Royal Institute of Technology;  Stockholm University
 9286,17,Hans-Bredow-Institut;  University of Hamburg
 9052,33,University of Toronto
-9024,49,  
+9024,49,Technische Universität Berlin;  KAIST
 9181,65,"University of California, Irvine;  Florida State University"
 9146,81,Syracuse University
 9126,97,University of Colorado;  University of Colorado Boulder
-9139,113,  Facebook;  Stanford University
+9139,113,Northeastern University;  Facebook;  Stanford University
 9229,129,Newcastle University
 9193,145,University of Technology Eindhoven;  Eindhoven University of Technology
 9056,161,IIIT Bangalore
@@ -17,11 +17,11 @@ Paper Id,User Id,Institution
 9247,241,Northumbria University;  The University of Edinburgh
 9234,257,Université de Lyon;  UC San Diego
 9235,273,Monash University;  Lancaster University
-9281,289,  GFI Informatique;  Gfi Informatique
+9281,289,Strasbourg University;  GFI Informatique;  Gfi Informatique
 9026,305,Virginia Tech
 9128,321,University of Tsukuba
 9051,337,Virginia Tech
-9055,353,
+9055,353,University of Washington
 9232,369,University of Edinburgh
 9041,385,University of Michigan
 9061,401,University of Southampton
@@ -39,14 +39,14 @@ Paper Id,User Id,Institution
 9137,593,University of Minnesota
 9062,609,"College of Information Studies, University of Maryland, College Park, USA;   College of Information Studies, University of Maryland, College Park, USA"
 9217,625,College of Information Studies;  University of Maryland
-9172,641,  
+9172,641,National University of Singapore;   University of Washington ;  University of Washington
 9242,657,Colorado School of Mines;  Department of Computer Science;  northwestern polytechnical univ.;  Northwestern Polytechnical University
 9239,673,University of Trier
 9034,689,Fraunhofer Institute for Secure Information Technology;  University of Siegen;  Ruhr University 
 9182,705,Carnegie Mellon University
 9009,721,University of Michigan School of Information
 9263,737,University of Maryland
-9153,753,  
+9153,753,University of Washington
 9097,769,university of illinois;  University of Illinois at Urbana-Champaign;  University of Illinois at Urbana–Champaign
 9113,785,Princeton University
 9107,801,"Indiana University;  Indiana University School of Informatics, Computing, and Engineering;  University of Michigan"
@@ -94,7 +94,7 @@ Paper Id,User Id,Institution
 9257,1473,Shanghai Jiao Tong University;  Australian National University;  Monash University
 9123,1489,University of Michigan
 9133,1505,University of Pennsylvania;  University of Washington;  University of Maryland
-9273,1521,  
+9273,1521,Nokia Bell Labs;  Nokia Bell Labs ;  EPFL ;  Cornell University
 9266,1537,"University of California, Berkeley"
 9188,1553,University of Turin;  Nokia Bell Labs
 9202,1569,University of Washinton;  University of Washington
@@ -110,7 +110,7 @@ Paper Id,User Id,Institution
 9177,1729,Rutgers University
 9240,1745,Tencent Inc.;  University of Chicago;  Carnegie Mellon University;  Tsinghua University
 9196,1761,Wikimedia Foundation;  University of Washington
-9207,1777,  
+9207,1777,"University of California, Davis;  NTT Communication Science Labs ;  National Tsing-Hua University "
 9280,1793,Stanford University;  UC Berkeley
 9178,1809,Indian Institute of Technology Kharagpur;  McGill University;  Northwestern University
 9068,531,Georgia Institute of Technology;  Georgia Tech
@@ -130,7 +130,7 @@ Paper Id,User Id,Institution
 9236,2049,University of Zurich;  Software Improvement Group;  Delft University of Technology
 9151,2065,Hebrew University of Jerusalem;  Carnegie Mellon University;  University of Maryland
 9082,65,Purdue University;  Florida State University
-9284,2097,  
+9284,2097,University of Michigan ;  University of Chicago Crime Lab;  University of Notre Dame
 9100,2113,University College London;  UC Santa Cruz;  University of California Santa Cruz;  Anna Freud Centre;  UCL
 9238,2129,IUPUI
 9096,2145,Northeastern University
@@ -143,7 +143,7 @@ Paper Id,User Id,Institution
 9090,2257,University of Colorado Boulder
 9289,2273,Simon Fraser University
 9111,2289,Facebook;  Cornell University
-9058,2305,  
+9058,2305,University of Washington; University College London ; Carnegie Mellon University ; Yahoo Research 
 9272,2321,IT University of Copenhagen;  University of Copenhagen
 9254,2337,University of Michigan;  Virginia Tech;  Georgia Institute of Technology
 9256,1763,GitHub;  
@@ -158,7 +158,7 @@ Paper Id,User Id,Institution
 9212,2497,Columbia University;  Cornell University
 9208,2513,Microsoft Research;  University of Waterloo;  University of Michigan
 9038,2529,"UC Irvine;  University of California, Irvine;  Florida State University;  University of California Irvine"
-9204,2545,  
+9204,2545,"University of California, Irvine"
 9037,2529,"UC Irvine;  American University;  University of California, Irvine;  University of California Irvine"
 9233,2577,"Indiana University, IUPUI;  Indiana University-Purdue University;  Indiana University"
 9043,2593,Princeton University
@@ -166,7 +166,7 @@ Paper Id,User Id,Institution
 9198,2625,The University of Minnesota;  Wikimedia Foundation;  University of Minnesota
 9222,2641,Universitè Paris Diderot;  University of Bologna
 9189,2657,Carnegie Mellon University;  West Virginia University
-9142,2673,
+9142,2673,Qatar Computing Research Institute;  University of Washington; University of Washington
 9104,529,Georgia Tech;  Georgia Institute of Technology
 9092,66,"Arizona State university;  University of California Irvine;  University of California, Irvine"
 9109,2338,Virginia Tech
@@ -184,119 +184,119 @@ Paper Id,User Id,Institution
 9042,2913,"University of California, Santa Barbara"
 9066,2929,Northeastern University
 9252,2945,Norwegian University of Science and Technology (NTNU);  SINTEF
-9003, ,
-9078, ,
-9116, ,
-9144, ,
-9175, ,
-9190, ,
-9000, ,Purdue University
-9001, ,Northwestern University
-9002, ,University of Illinois Urbana Champaign
-9004, ,University College London (UCL)
-9005, ,Seagate Technology;  University of Minnesota;  Fudan University
-9006, ,Yahoo
-9007, ,University of Michigan
-9010, ,University of Washington
-9011, ,Pennsylvania State University
-9013, ,University College London;  Ca' Foscari University of Venice
-9014, ,Northwestern University
-9015, ,Victoria University of Wellington;  University of Waterloo
-9017, ,Aarhus University
-9020, ,University of Washington
-9021, ,University of Haifa;  UC Berkeley;  New York University
-9022, ,Catholic University;  Stanford University
-9023, ,Northeastern University
-9025, ,Stanford University
-9027, ,"Oregon State University;  University of California, Irvine;  Purdue University"
-9028, ,University of Waterloo;  New York University
-9031, ,Cornell Tech;  Bangladesh University of Engineering and Technology;  Cornell University
-9032, ,Princeton University;  University of Maryland
-9033, ,Clemson University
-9035, ,Sangmyung University;  Hanyang University;  Seoul National University
-9039, ,UC Berkeley;  University of California Berkeley
-9040, ,School of Information Studies;  Syracuse University
-9045, ,Wikimedia Foundation;  UC-Berkeley
-9049, ,Georgia Tech (*Both authors share first authorship on this paper);  Zeotap GmbH;  Georgia Institute of Technology
-9059, ,Australian National University;  Nanyang Technological University
-9060, ,Fudan University;  Indiana University Bloomington;  IBM T.J. Waston Research
-9064, ,"University of Chicago;  University of California, Santa Barbara;  UC Santa Barbara"
-9065, ,The University of Minnesota;  Northwestern University;  ;  University of Minnesota
-9069, ,Northwestern University;  University of Minnesota;  University of Michigan
-9070, ,University of North Carolina at Chapel Hill
-9071, ,Indiana University Bloomington
-9073, ,University of Washington;  ReadSense Technology Ltd.;  Northwestern University;  University of Minnesota
-9074, ,"University of California Irvine;  UC Irvine;  University of California, Irvine"
-9075, ,"University of California Irvine;  Arizona State university;  Purdue University;  University of California, Irvine"
-9080, ,University of Minnesota
-9083, ,Indiana University Bloomington;  Syracuse University
-9084, ,Kaiser Permanente Washington Health Research Institute;  University of Washington
-9085, ,University of Illinois;  University of Illinois at Urbana-Champaign;  University of Illinois Urbana Champaign
-9086, ,University of Michigan       ;  University of Michigan; University of Michigan
-9089, ,"University of Washington;  Annenberg School for Communication & Journalism, University of Southern California"
-9091, ,Clemson University;  ;  Columbia Journalism School
-9095, ,Georgia Institute of Technology;  Virginia Tech
-9101, ,University of Texas at Austin;  University of Bristol;  University College London
-9103, ,University of Glasgow
-9108, ,Cornell University;  Hunter College;  City College of New York;  Cornell Tech
-9110, ,"Arizona State University;  University of California, Irvine;  Purdue University"
-9112, ,University of Michigan
-9117, ,IBM T.J. Waston Research;  University of Michigan
-9119, ,University of Maryland Baltimore County
-9122, ,"FX Palo Alto Laboratory, Inc.;  FXPAL;  University of California, Irvine"
-9124, ,University of Glasgow
-9129, ,"University of Minnesota, Twin Cities;  University of Minnesota"
-9130, ,University of Minnesota
-9134, ,University of Minnesota ;  University of Minnesota
-9141, ,Georgia Tech;  Georgia Institute of Technology
-9148, ,University of Washington
-9156, ,University of Washington
-9161, ,INRIA;  Politecnico di Torino;  Nokia Bell Labs;  Former Nokia Bell Labs
-9165, ,Cornell University
-9167, ,Cornell University
-9168, ,Indiana University Bloomington;  Indiana University
-9171, ,Microsoft
-9174, ,Emory University;  Georgia Institute of Technology
-9176, ,Sassafras Tech Collective;  University of Michigan
-9180, ,Coursera
-9183, ,Carnegie Mellon University
-9185, ,IIT Kharagpur;  Indian Institute of Technology Kharagpur
-9186, ,New York University;  University of Waterloo
-9187, ,The Tavistock Institute of Human Relations;  University of Siegen
-9192, ,IBM;  IBM Research;  Virginia Tech
-9194, ,University of Minnesota
-9197, ,University of Michigan
-9199, ,Pennsylvania State University;  The Pennsylvania State University;  University of Central Florida
-9203, ,  ;  Cornell University
-9205, ,"Zucker Hillside Hospital, Psychiatry Research;  Georgia Institute of Technology"
-9209, ,Microsoft Research;  University of British Columbia;  University of Zurich
-9211, ,The University of Minnesota;  University of Minnesota
-9216, ,University of British Columbia;  Simon Fraser University;  University of Waterloo
-9218, ,University of Michigan;  Queensland University of Technology
-9219, ,University of Maryland
-9220, ,Cornell Tech;  Facebook;  Cornell University
-9224, ,Ruhr-University Bochum;  University of Pittsburgh;  University of Duisburg-Essen;  University of Tartu
-9225, ,University of New Hampshire;  Wellesley College
-9226, ,IBM T. J. Watson Research Center;  Eindhoven University of Technology (TU/e)
-9237, ,University of Copenhagen
-9245, ,University of Washington
-9251, ,"Indiana University-Purdue University Indianapolis;  Indiana University, IUPUI"
-9253, ,Rutgers University
-9259, ,North Carolina State University;  Carnegie Mellon University
-9260, ,Facebook;  University of Washington
-9264, ,Georgia Institute of Technology
-9265, ,University of Colorado;  University of Colorado Boulder
-9268, ,Carnegie Mellon University
-9269, ,University of Michigan
-9274, ,Nokia Bell Labs
-9275, ,
-9283, ,University of Washington
-9287, ,NTT Communication Science Laboratories;  University of Zurich
-9293, ,KAIST;  Cornell University;  University of the Philippines Los Baños;  National University of Singapore
-9294, ,Panelist;  Moderator
-9295, ,Panelist;  Moderator
-9296, ,Panelist;  Moderator
-9297, ,Panelist;  Moderator
+9003,2961,"Carnegie Mellon University;  University of Pittsburgh; University of Pittsburgh ; University of Maryland, College Park"
+9078,2977,Blackbaud; Indiana University;  Indiana University;  Angie’s List
+9116,2993,Linköping University
+9144,3009,University of Southampton
+9175,2339,Georgia Institute of Technology
+9190,1793,Stanford University;  UC Berkeley
+9000,65,Purdue University
+9001,465,Northwestern University
+9002,3089,University of Illinois Urbana Champaign
+9004,3105,University College London (UCL)
+9005,3121,Seagate Technology;  University of Minnesota;  Fudan University
+9006,1009,Yahoo
+9007,3153,University of Michigan
+9010,3169,University of Washington
+9011,3185,Pennsylvania State University
+9013,3201,University College London;  Ca' Foscari University of Venice
+9014,3217,Northwestern University
+9015,3233,Victoria University of Wellington;  University of Waterloo
+9017,1954,Aarhus University
+9020,753,University of Washington
+9021,3281,University of Haifa;  UC Berkeley;  New York University
+9022,3297,Catholic University;  Stanford University
+9023,3313,Northeastern University
+9025,3329,Stanford University
+9027,65,"Oregon State University;  University of California, Irvine;  Purdue University"
+9028,3361,University of Waterloo;  New York University
+9031,3377,Cornell Tech;  Bangladesh University of Engineering and Technology;  Cornell University
+9032,628,Princeton University;  University of Maryland
+9033,3409,Clemson University
+9035,3425,Sangmyung University;  Hanyang University;  Seoul National University
+9039,2484,UC Berkeley;  University of California Berkeley
+9040,3457,School of Information Studies;  Syracuse University
+9045,3473,Wikimedia Foundation;  UC-Berkeley
+9049,530,Georgia Tech (*Both authors share first authorship on this paper);  Zeotap GmbH;  Georgia Institute of Technology
+9059,1473,Australian National University;  Nanyang Technological University
+9060,3521,Fudan University;  Indiana University Bloomington;  IBM T.J. Waston Research
+9064,3537,"University of Chicago;  University of California, Santa Barbara;  UC Santa Barbara"
+9065,3553,The University of Minnesota;  Northwestern University; Wikimedia Research ;  University of Minnesota ;  University of Minnesota
+9069,418,Northwestern University;  University of Minnesota;  University of Michigan
+9070,3585,University of North Carolina at Chapel Hill
+9071,3601,Indiana University Bloomington
+9073,3555,University of Washington;  ReadSense Technology Ltd.;  Northwestern University;  University of Minnesota
+9074,3633,"University of California Irvine;  UC Irvine;  University of California, Irvine"
+9075,66,"University of California Irvine;  Arizona State university;  Purdue University;  University of California, Irvine"
+9080,3665,University of Minnesota
+9083,3681,Indiana University Bloomington;  Syracuse University
+9084,3697,Kaiser Permanente Washington Health Research Institute;  University of Washington
+9085,3713,University of Illinois;  University of Illinois at Urbana-Champaign;  University of Illinois Urbana Champaign
+9086,3729,University of Michigan; University of Michigan
+9089,3745,"University of Washington;  Annenberg School for Communication & Journalism, University of Southern California"
+9091,3761,Clemson University;  Columbia University ;  Columbia Journalism School
+9095,2722,Georgia Institute of Technology;  Virginia Tech
+9101,3793,University of Texas at Austin;  University of Bristol;  University College London
+9103,3809,University of Glasgow
+9108,3825,Cornell University;  Hunter College;  City College of New York;  Cornell Tech
+9110,65,"Arizona State University;  University of California, Irvine;  Purdue University"
+9112,3857,University of Michigan
+9117,3873,IBM T.J. Waston Research;  University of Michigan
+9119,3889,University of Maryland Baltimore County
+9122,3905,"FX Palo Alto Laboratory, Inc.;  FXPAL;  University of California, Irvine"
+9124,3921,University of Glasgow
+9129,594,"University of Minnesota, Twin Cities;  University of Minnesota"
+9130,3938,University of Minnesota
+9134,3969,University of Minnesota ;  University of Minnesota
+9141,3985,Georgia Tech;  Georgia Institute of Technology
+9148,4001,University of Washington
+9156,4017,University of Washington
+9161,4033,INRIA;  Politecnico di Torino;  Nokia Bell Labs;  Former Nokia Bell Labs
+9165,4049,Cornell University
+9167,4065,Cornell University
+9168,4081,Indiana University Bloomington;  Indiana University
+9171,4097,Microsoft
+9174,2337,Emory University;  Georgia Institute of Technology
+9176,4129,Sassafras Tech Collective;  University of Michigan
+9180,4145,Coursera
+9183,1750,Carnegie Mellon University
+9185,4177,IIT Kharagpur;  Indian Institute of Technology Kharagpur
+9186,4193,New York University;  University of Waterloo
+9187,4209,The Tavistock Institute of Human Relations;  University of Siegen
+9192,2722,IBM;  IBM Research;  Virginia Tech
+9194,4241,University of Minnesota
+9197,4257,University of Michigan
+9199,4273,Pennsylvania State University;  The Pennsylvania State University;  University of Central Florida
+9203,4049,Cornell University; Cornell University ;  Cornell University ;  Cornell University
+9205,4305,"Zucker Hillside Hospital, Psychiatry Research;  Georgia Institute of Technology"
+9209,4321,Microsoft Research;  University of British Columbia;  University of Zurich
+9211,2626,The University of Minnesota;  University of Minnesota
+9216,4353,University of British Columbia;  Simon Fraser University;  University of Waterloo
+9218,1635,University of Michigan;  Queensland University of Technology
+9219,2961,University of Maryland
+9220,4401,Cornell Tech;  Facebook;  Cornell University
+9224,4417,Ruhr-University Bochum;  University of Pittsburgh;  University of Duisburg-Essen;  University of Tartu
+9225,4433,University of New Hampshire;  Wellesley College
+9226,4449,IBM T. J. Watson Research Center;  Eindhoven University of Technology (TU/e)
+9237,4465,University of Copenhagen
+9245,4481,University of Washington
+9251,4497,"Indiana University-Purdue University Indianapolis;  Indiana University, IUPUI"
+9253,1730,Rutgers University
+9259,4529,North Carolina State University;  Carnegie Mellon University
+9260,1170,Facebook;  University of Washington
+9264,4561,Georgia Institute of Technology
+9265,4577,University of Colorado;  University of Colorado Boulder
+9268,4529,Carnegie Mellon University
+9269,801,University of Michigan
+9274,3105,Nokia Bell Labs
+9275,4641,Engagement Lab at Emerson College
+9283,4657,University of Washington
+9287,4673,NTT Communication Science Laboratories;  University of Zurich
+9293,4689,KAIST;  Cornell University;  University of the Philippines Los Baños;  National University of Singapore
+9294,4705,
+9295,4721,
+9296,1649,
+9297,4753,
 9400, ,
 9401, ,
 9402, ,
