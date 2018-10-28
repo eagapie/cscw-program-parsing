@@ -95,6 +95,15 @@ def is_new_entry_in_author_list(new_author, author_list):
     # the author was not found in the list
     return True
 
+# get the list of people who are chairs but not authors
+def get_chairs_not_authors():
+    chairs = []
+    with open('chairs_not_authors.csv', encoding="utf-8") as r_chair_not_author:
+        reader_chairs_not_author = csv.DictReader(r_chair_not_author, delimiter=',', quotechar='"')
+        for row in reader_chairs_not_author:
+            chairs.append(row)
+    return chairs
+
 # generates the people.csv file
 def write_people_file(paper_list):
     with open('people.csv', 'w', encoding="utf-8") as people_file:
@@ -125,15 +134,30 @@ def write_people_file(paper_list):
                 if (row["Author " + str(i) + " - last"] != ""):
                     # new_row will have the values that need to be added in the people file for this row
                     new_row = {}
-                    new_row["User Id"] = author_index # TODO this needs to get replaced with whatever value should go here
+                    new_row["User Id"] = author_index
                     new_row["First name"] = row["Author " + str(i) + " - first"]
                     new_row["Middle initial"] = row["Author " + str(i) + " - middle"]
                     new_row["Last name"] = row["Author " + str(i) + " - last"]
                     if (is_new_entry_in_author_list(new_row, author_list)):
                         author_list.append(new_row)
 
+        # append all chairs of sessions who are not authors
+        chairs = get_chairs_not_authors()
+
+        for row in chairs:
+            author_index = author_index + 1
+            new_row = {}
+            new_row["User Id"] = author_index
+            new_row["First name"] = row["First name"]
+            new_row["Middle initial"] = ""
+            new_row["Last name"] = row["Last name"]
+            if (is_new_entry_in_author_list(new_row, author_list)):
+                author_list.append(new_row)
+
+        # write all people to file
         for item in author_list:
             writer_people.writerow(item)
+
 
 # output: a list of affiliations separated by semicolon
 # input of the type: Zhicong Lu: University of Toronto; Seongkook Heo: University of Toronto; Daniel J Wigdor: University of Toronto
