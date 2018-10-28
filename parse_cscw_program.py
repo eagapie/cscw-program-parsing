@@ -251,6 +251,57 @@ def parse_time(time):
         new_time = str(pm_time[0]) + ":" + pm_time[1]
     return new_time
 
+# gets people id for this particular chair from first and last neme
+def get_chair_id(first_name, last_name):
+    # get people list
+    # read the people list from people.csv
+    people_list = []
+    with open('people.csv', encoding="utf-8") as r_people:
+        people_reader = csv.DictReader(r_people, delimiter=',', quotechar='"')
+        for row in people_reader:
+            people_list.append(row)
+
+    for item_people in people_list:
+        if (first_name == item_people["First name"] and
+            last_name == item_people["Last name"]):
+            # append author id to the list of author ids
+            return item_people["User Id"]
+
+    # check if this person is in the people list, if it is return the id
+    return " "
+
+# dictionary of sessions with chair names (first and last)
+def get_sessions_with_chair_names_dict():
+    session_w_chairs_list = []
+    chairs_dict = {}
+    with open('sessions_with_chair_names.csv', encoding="utf-8") as r_session_w_chair:
+        reader_session_w_chair = csv.DictReader(r_session_w_chair, delimiter=',', quotechar='"')
+        for row in reader_session_w_chair:
+            session_w_chairs_list.append(row)
+
+    for item in session_w_chairs_list:
+        chairs_dict[item["Session ID"]] = {}
+        chairs_dict[item["Session ID"]]["Session ID"] = item["Session ID"]
+        chairs_dict[item["Session ID"]]["Session Chair Ids"] = ""
+
+        # if there are several chairs in the list
+        if(item["Session Chair Ids"].strip(";") == "NA"):
+            chairs_dict[item["Session ID"]]["Session Chair Ids"] = "NA"
+        else:
+            chair_list = item["Session Chair Ids"].strip(";").split(";")
+            for item_chair in chair_list:
+                # if id is NA return
+                if(item_chair == "NA"):
+                    chairs_dict[item["Session ID"]]["Session Chair Ids"] = "NA"
+                else:
+                    # each name gets parsed in first and last name
+                    chair_name = item_chair.split(" ")
+                    chair_id = get_chair_id(chair_name[0], chair_name[1])
+                    print(chair_id + " " + chair_name[0] + " " + chair_name[1])
+                    chairs_dict[item["Session ID"]]["Session Chair Ids"] = chair_id + ";" + chairs_dict[item["Session ID"]]["Session Chair Ids"]
+
+
+    return chairs_dict
 
 # generates the sessions.csv file
 def write_sessions_file(paper_list):
@@ -282,6 +333,9 @@ def write_sessions_file(paper_list):
             # make it easier to append multiple values to them
             session[row["S #"]] = initialize_session(row["S #"])
 
+        session_chairs_dict = get_sessions_with_chair_names_dict()
+        # print(session_chairs_dict)
+
         # go through each item in the paper list and create
         # a dictionary of sessions, with the key being the session S #
         # go through the list of papers and add each paper that matches this particular session number
@@ -292,9 +346,9 @@ def write_sessions_file(paper_list):
             session[row["S #"]]["Start time (HH:mm in 24-h format)"] = parse_time(row["Session Start Time"])
             session[row["S #"]]["End time (HH:mm in 24-h format)"] = parse_time(row["S End"])
             session[row["S #"]]["Room"] = row["Room"]
-            session[row["S #"]]["Paper Ids"] = str(row["Paper Number"]) + ";" + str(session[row["S #"]]["Paper Ids"])   # TODO (Separate papers with semicolon),
-            session[row["S #"]]["Session Chair Ids"] = "TODO_chair" # TODO (Separate chairs with semicolon)
-
+            session[row["S #"]]["Paper Ids"] = str(row["Paper Number"]) + ";" + str(session[row["S #"]]["Paper Ids"])
+            session[row["S #"]]["Session Chair Ids"] = str(session_chairs_dict[row["S #"]]["Session Chair Ids"]).strip(";")
+            # print(session_chairs_dict[row["S #"]]["Session Chair Ids"])
         for key in session:
             writer_session.writerow(session[key])
 
