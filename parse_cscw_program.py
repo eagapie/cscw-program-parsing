@@ -211,7 +211,7 @@ def write_affiliations_file(paper_list):
         for row in paper_list:
             new_row = {}
             new_row["Paper Id"] = row["Paper Number"]
-            new_row["User Id"] = "TODO User Id" # TODO this needs to get replaced with whatever value should go here
+            new_row["User Id"] = get_first_author_id(row["Paper Number"])
             new_row["Institution"] = parse_affiliations(row["ACM Author Affiliations"], row["Paper Number"])
             writer_affiliations.writerow(new_row)
 
@@ -253,6 +253,35 @@ def parse_time(time):
 
 # gets people id for this particular chair from first and last neme
 def get_chair_id(first_name, last_name):
+    # get people list
+    # read the people list from people.csv
+    people_list = []
+    with open('people.csv', encoding="utf-8") as r_people:
+        people_reader = csv.DictReader(r_people, delimiter=',', quotechar='"')
+        for row in people_reader:
+            people_list.append(row)
+
+    for item_people in people_list:
+        if (first_name == item_people["First name"] and
+            last_name == item_people["Last name"]):
+            # append author id to the list of author ids
+            return item_people["User Id"]
+
+    # check if this person is in the people list, if it is return the id
+    return " "
+
+def get_first_author_id(paper_id):
+    first_name = ""
+    last_name = ""
+
+    paper_list = []
+    with open('confer_data.csv', encoding="utf-8") as r_papers:
+        reader = csv.DictReader(r_papers, delimiter=',', quotechar='"')
+        for row in reader:
+            if(paper_id == row["Paper Number"]):
+                first_name = row["Author 1 - first"]
+                last_name = row["Author 1 - last"]
+
     # get people list
     # read the people list from people.csv
     people_list = []
