@@ -213,6 +213,7 @@ def write_affiliations_file(paper_list):
             new_row["Paper Id"] = row["Paper Number"]
             new_row["User Id"] = get_first_author_id(row["Paper Number"])
             new_row["Institution"] = parse_affiliations(row["ACM Author Affiliations"], row["Paper Number"])
+            print(new_row["Institution"])
             writer_affiliations.writerow(new_row)
 
 def initialize_session(session_id):
