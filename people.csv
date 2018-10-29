@@ -182,6 +182,11 @@ User Id,First name,Middle initial,Last name
 901,Ying-Yu,,Chen
 902,Yiran,,Ni
 903,Alexis,,Hiniker
+913,S.,Andrew,Sheppard
+914,Julian,,Turner
+915,Jacob,,Thebault-Spieker
+916,Haiyi,,Zhu
+917,Loren,,Terveen
 929,Eric,P. S.,Baumer
 930,Rui,,Sun
 931,Peter,,Schaedler
@@ -548,9 +553,7 @@ User Id,First name,Middle initial,Last name
 2610,Kathryn,,Ringland
 2611,Isley,,Gao
 2612,Paul,,Dourish
-2625,Haiyi,,Zhu
 2626,Bowen,,Yu
-2628,Loren,,Terveen
 2641,Gabriele,,D'Angelo
 2642,Angelo,,Di Iorio
 2643,Stefano,,Zacchiroli
@@ -698,7 +701,6 @@ User Id,First name,Middle initial,Last name
 3538,Xinyi,,Zhang
 3539,Jenna,,Cryan
 3541,Haitao,,Zheng
-3553,Jacob,,Thebault-Spieker
 3555,Maximilian,A,Klein
 3559,Joseph,A.,Konstan
 3570,Xinyi,,Wang
@@ -980,6 +982,7 @@ User Id,First name,Middle initial,Last name
 4994,Dharma,,Dailey
 4995,Susan,,Wyche
 5041,Emily ,,Bell
+5121,Natasha,Dow,Schüll
 5139,Matthew,,Bietz
 5140,Bryan,,Seamaan
 5141,Mark,,Whiting

@@ -1,6 +1,6 @@
 Session ID,Name,Type,Date (yyyy-MM-dd),Start time (HH:mm in 24-h format),End time (HH:mm in 24-h format),Room,Paper Ids,Session Chair Ids
 30,Sustainability and Local Action,Papers,2018-11-06,11:00,12:30,"Hudson IV,V,VI",9233;9231;9232;9229;9230,1076
-34,"Ratings, Comments, and Feedback",Papers,2018-11-06,11:00,12:30,Palisades,9287;9284;9285;9288;9286,3553
+34,"Ratings, Comments, and Feedback",Papers,2018-11-06,11:00,12:30,Palisades,9287;9284;9285;9288;9286,915
 16,Learning,Papers,2018-11-05,16:30,18:00,Harborside II,9049;9050;9053;9051;9052,2113
 26,Motivation in Online Collaboration,Papers,2018-11-06,9:00,10:30,Palisades,9023;9022;9021;9020;9024,2227
 9,Team-Based Communication,Papers,2018-11-05,14:30,16:00,Harborside I,9183;9180;9179;9182;9181,3521
@@ -44,7 +44,7 @@ Session ID,Name,Type,Date (yyyy-MM-dd),Start time (HH:mm in 24-h format),End tim
 51,Online Community Engagement,Papers,2018-11-07,11:00,12:30,Riverside,9275;9274;9278;9277;9276,1441
 38,Meetings and Decision Making,Papers,2018-11-06,14:30,16:00,Harborside II,9226;9225;9224;9227;9228, 
 59,Presence and Distance,Papers,2018-11-07,14:30,16:00,Riverside,9293;9290;9289;9291;9292,4097
-44,Bots and Online Communities,Papers,2018-11-07,9:00,10:30,Liberty,9045;9048;9047;9046,2625
+44,Bots and Online Communities,Papers,2018-11-07,9:00,10:30,Liberty,9045;9048;9047;9046,916
 14,"Children, Teens, and Young Adults",Papers,2018-11-05,14:30,16:00,Harborside II,9203;9199;9202;9200;9201,481
 52,Disability and Accessibility,Papers,2018-11-07,11:00,12:30,Palisades,9014;9013;9011;9010;9012,5156
 62,Sharing and Collaboration,Papers,2018-11-07,14:30,16:00,Liberty,9220;9219;9222;9223;9221,3459
@@ -68,7 +68,7 @@ Session ID,Name,Type,Date (yyyy-MM-dd),Start time (HH:mm in 24-h format),End tim
 68,Workshop: Privacy in Context: Critically Engaging Theories to Guide Privacy Research ...,Workshop,2018-11-03,9:00,17:00,Liberty III,9403,4274;4823;4822;4821;3411;4819;4818;4817
 69,"Workshop: Conducting Research with Stigmatized Populations: Practices, Challenges ...",Workshop,2018-11-03,9:00,17:00,Liberty I,9404,1425;4836;865;2851; 
 70,"Workshop: Power Struggles in the Digital Economy: Platforms, Workers, and Markets",Workshop,2018-11-03,9:00,17:00,Harborside II,9405,4853;4852;4851;4850;1
-71,"Workshop: The Changing Contours of “Participation” in Data-driven, Algorithmic ...",Workshop,2018-11-03,9:00,17:00,Harborside I,9406,99; ;4707;2625;2609
+71,"Workshop: The Changing Contours of “Participation” in Data-driven, Algorithmic ...",Workshop,2018-11-03,9:00,17:00,Harborside I,9406,99; ;4707;916;2609
 72,Workshop: Navigating the Challenges of Multi-Site Research,Workshop,2018-11-03,9:00,17:00,Manhattan I,9407,4019;1459;1089;467;4882;4881
 73,Workshop: Sociotechnical Systems of Care,Workshop,2018-11-04,9:00,17:00,Palissades II,9408,4901;5210;4083;4898;4897
 74,Workshop: Hybrid events: mediating collocated participation,Workshop,2018-11-04,9:00,17:00,Palisades I,9409,5218;4918;4917;2787;4915;4914;4913

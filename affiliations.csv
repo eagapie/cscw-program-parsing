@@ -186,6 +186,11 @@ Paper Id,User Id,Institution
 9164,901, University of Washington
 9164,902, University of Washington
 9164,903, University of Washington
+9145,913, University of Minnesota
+9145,914, Colorado State University
+9145,915, University of Minnesota
+9145,916, University of Minnesota
+9145,917, The University of Minnesota
 9184,929, Lehigh University
 9184,930, Lehigh University
 9184,931, Lehigh University
@@ -356,8 +361,8 @@ Paper Id,User Id,Institution
 9202,1573, University of Washington
 9202,1574, University of Washinton
 9105,1585," University of Maryland, Baltimore County (UMBC)"
-9285,1601, 
-9285,1602, 
+9285,1601, UC San Diego 
+9285,1602, UC San Diego 
 9285,1603, UC San Diego
 9195,1617, Georgia Tech
 9195,1618, Georgia Tech
@@ -535,7 +540,7 @@ Paper Id,User Id,Institution
 9254,2342, University of Michigan
 9254,1619, Georgia Institute of Technology
 9254,2344, University of Michigan
-9256,1763, 
+9256,1763, Wikimedia Foundation 
 9256,1907, GitHub
 9290,2273, Simon Fraser University
 9290,2370, University of Calgary
@@ -606,10 +611,10 @@ Paper Id,User Id,Institution
 9277,2610, Northwestern University
 9277,2611," University of California, Irvine"
 9277,2612," University of California, Irvine"
-9198,2625, University of Minnesota
+9198,916, University of Minnesota
 9198,2626, University of Minnesota
 9198,2242, Wikimedia Foundation
-9198,2628, The University of Minnesota
+9198,917, The University of Minnesota
 9222,2641, University of Bologna
 9222,2642, University of Bologna
 9222,2643, Universitè Paris Diderot
@@ -625,7 +630,7 @@ Paper Id,User Id,Institution
 9109,2338, Virginia Tech
 9109,2722, Virginia Tech
 9048,2737, 
-9048,2628, 
+9048,917, 
 9048,2242, Wikimedia Foundation
 9019,2225, Carnegie Mellon University
 9019,2754, Carnegie Mellon University
@@ -663,7 +668,7 @@ Paper Id,User Id,Institution
 9127,2897, University of Minnesota
 9127,2898, University of Minnesota
 9127,2899, University of Minnesota
-9127,2628, University of Minnesota
+9127,917, University of Minnesota
 9127,467, Northwestern University
 9042,2913," University of California, Santa Barbara"
 9042,2914," University of California, Santa Barbara"
@@ -686,10 +691,10 @@ Paper Id,User Id,Institution
 9078,802,Indiana University
 9078,2980, Blackbaud
 9116,2993, Linköping University
-9144,3009,
-9144,3010,University of Southampton
-9144,3011,
-9144,3012,
+9144,3009, University of Southampton
+9144,3010, University of Southampton
+9144,3011, University of Southampton
+9144,3012, University of Southampton
 9175,2339,  Georgia Institute of Technology
 9190,1793, UC Berkeley
 9190,980, Stanford University
@@ -704,7 +709,7 @@ Paper Id,User Id,Institution
 9004,3105, University College London (UCL)
 9004,3106, University College London (UCL)
 9005,3121, Fudan University
-9005,2625, University of Minnesota
+9005,916, University of Minnesota
 9005,3123, Fudan University
 9005,3124, Seagate Technology
 9005,3125, Fudan University
@@ -812,19 +817,19 @@ Paper Id,User Id,Institution
 9064,2914," University of California, Santa Barbara"
 9064,3541, University of Chicago
 9064,1751, University of Chicago
-9065,3553, University of Minnesota
+9065,915, University of Minnesota
 9065,2899, University of Minnesota 
 9065,3555, University of Minnesota
 9065,2242,Wikimedia Research 
 9065,467, Northwestern University
-9065,2628, The University of Minnesota
+9065,917, The University of Minnesota
 9065,3559, University of Minnesota
 9069,418, University of Michigan
 9069,3570, University of Minnesota
 9069,3571, University of Michigan
 9069,3572, University of Minnesota
 9069,467, Northwestern University
-9069,2625, University of Minnesota
+9069,916, University of Minnesota
 9070,3585, University of North Carolina at Chapel Hill
 9070,3586, University of North Carolina at Chapel Hill
 9071,3601, Indiana University Bloomington
@@ -834,7 +839,7 @@ Paper Id,User Id,Institution
 9073,3620, Northwestern University
 9073,3621, ReadSense Technology Ltd.
 9073,3622, University of Washington
-9073,2625, University of Minnesota
+9073,916, University of Minnesota
 9074,3633," University of California, Irvine"
 9074,2850, UC Irvine
 9074,3635," University of California, Irvine"
@@ -984,7 +989,7 @@ Paper Id,User Id,Institution
 9192,4228, IBM
 9192,4229, IBM
 9194,4241, University of Minnesota
-9194,2625, University of Minnesota
+9194,916, University of Minnesota
 9194,3559, University of Minnesota
 9197,4257, University of Michigan
 9197,4258, University of Michigan
@@ -1012,8 +1017,8 @@ Paper Id,User Id,Institution
 9209,4324, Microsoft Research
 9211,2626, University of Minnesota
 9211,4338, University of Minnesota
-9211,2628, The University of Minnesota
-9211,2625, University of Minnesota
+9211,917, The University of Minnesota
+9211,916, University of Minnesota
 9216,4353, University of Waterloo
 9216,4354, University of Waterloo
 9216,4355, Simon Fraser University
@@ -1151,7 +1156,7 @@ Paper Id,User Id,Institution
 9405,4852, University of Sussex
 9405,4853, Microsoft Research
 9406,2609," IBM Research, Almaden"
-9406,2625, University of Minnesota
+9406,916, University of Minnesota
 9406,4707,Julia Bullard
 9406,4868, Carnegie Mellon University
 9406,99, University of Colorado Boulder
@@ -1209,3 +1214,4 @@ Paper Id,User Id,Institution
 9415,963, University of Washington
 9415,2866, Drexel University
 9417,5041, Tow Center for Digital Journalism
+9422,5121, NYU
