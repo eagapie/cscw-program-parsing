@@ -1085,14 +1085,28 @@ Paper Id,User Id,Institution
 9293,4691, Cornell University
 9293,51, KAIST
 9293,4693, National University of Singapore
-9294,4705,NA
-9294,4706,NA
-9295,4721,NA
-9295,4722,NA
-9296,1649,NA
-9296,468,NA
-9297,4753,NA
-9297,2341,NA
+9294,4705, University of Colorado Boulder
+9294,4706, University of Washington
+9294,4707, University of British Columbia
+9294,4708,University of Washington
+9294,98,University of Colorado Boulder
+9295,4721, University of Michigan
+9295,4722, Stanford University
+9295,4723,Facebook
+9295,4724, Penn State University
+9295,4725,University of Michigan
+9296,1649,University of Michigan
+9296,468, Northwestern University
+9296,2129, Indiana University - Purdue University Indianapolis
+9296,4740, Microsoft Research
+9296,4741, B12
+9296,1793," University of California, Berkeley"
+9297,4753,
+9297,2341, Georgia Institute of Technology
+9297,4162, Carnegie Mellon University
+9297,2386,IBM Research AI
+9297,4757,University of Toronto Mississauga
+9297,4758,University of Maryland
 9400,4769, Federal University of Pará
 9400,4770, Universidad Técnica Federico Santa María
 9400,4771, University of Chile
@@ -1138,7 +1152,7 @@ Paper Id,User Id,Institution
 9405,4853, Microsoft Research
 9406,2609," IBM Research, Almaden"
 9406,2625, University of Minnesota
-9406,4867,Julia Bullard
+9406,4707,Julia Bullard
 9406,4868, Carnegie Mellon University
 9406,99, University of Colorado Boulder
 9407,4881, University of Washington
@@ -1181,12 +1195,12 @@ Paper Id,User Id,Institution
 9412,4966, Georgetown University
 9412,1043, Microsoft Research India
 9412,4968, Microsoft Research India
-9412,4969," Microsoft Research, Harvard University"
+9412,4740," Microsoft Research, Harvard University"
 9413,1046, University of Michigan
 9413,4978, University of Washington
 9413,4979, Mozilla
 9413,2455, University of Michigan
-9413,4981, University of Toronto
+9413,4757, University of Toronto
 9413,4982, Google
 9414,4993, University of Michigan
 9414,4994, University of Washington
@@ -1194,4 +1208,4 @@ Paper Id,User Id,Institution
 9414,178, Indiana University Bloomington
 9415,963, University of Washington
 9415,2866, Drexel University
-9417,5041,NA
+9417,5041, Tow Center for Digital Journalism
