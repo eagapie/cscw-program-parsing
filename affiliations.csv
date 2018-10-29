@@ -1,295 +1,1087 @@
 Paper Id,User Id,Institution
-9230,1,KTH Royal Institute of Technology;  Stockholm University
-9286,17,Hans-Bredow-Institut;  University of Hamburg
-9052,33,University of Toronto
-9024,49,Technische Universität Berlin;  KAIST
-9181,65,"University of California, Irvine;  Florida State University"
-9146,81,Syracuse University
-9126,97,University of Colorado;  University of Colorado Boulder
-9139,113,Northeastern University;  Facebook;  Stanford University
-9229,129,Newcastle University
-9193,145,University of Technology Eindhoven;  Eindhoven University of Technology
-9056,161,IIIT Bangalore
-9241,177,Indiana University
-9044,193,Intel;  Intel Corporation;  Ruhr-University Bochum;  Carnegie Mellon University
-9288,209,University of Illinois at Urbana-Champaign
-9131,225,University of Bath;  The Open University;  The University of Melbourne
-9247,241,Northumbria University;  The University of Edinburgh
-9234,257,Université de Lyon;  UC San Diego
-9235,273,Monash University;  Lancaster University
-9281,289,Strasbourg University;  GFI Informatique;  Gfi Informatique
-9026,305,Virginia Tech
-9128,321,University of Tsukuba
-9051,337,Virginia Tech
-9055,353,University of Washington
-9232,369,University of Edinburgh
-9041,385,University of Michigan
-9061,401,University of Southampton
-9214,417,University of Michigan
-9267,433,UC Berkeley;  University of California
-9008,449,Northwestern University
-9054,465,Northwestern University
-9053,481,UC Berkeley
-9157,497,Sunnybrook Health Sciences Centre;  William Osler Health System;  University of Waterloo
-9147,513,Cornell University
-9087,529,Georgia Tech;  University of Washington;  Georgia Institute of Technology
-9159,545,KAIST
-9102,561,ISI Foundation;  University of Waterloo
-9132,577,University of Applied Sciences Upper Austria
-9137,593,University of Minnesota
-9062,609,"College of Information Studies, University of Maryland, College Park, USA;   College of Information Studies, University of Maryland, College Park, USA"
-9217,625,College of Information Studies;  University of Maryland
-9172,641,National University of Singapore;   University of Washington ;  University of Washington
-9242,657,Colorado School of Mines;  Department of Computer Science;  northwestern polytechnical univ.;  Northwestern Polytechnical University
-9239,673,University of Trier
-9034,689,Fraunhofer Institute for Secure Information Technology;  University of Siegen;  Ruhr University 
-9182,705,Carnegie Mellon University
-9009,721,University of Michigan School of Information
-9263,737,University of Maryland
-9153,753,University of Washington
-9097,769,university of illinois;  University of Illinois at Urbana-Champaign;  University of Illinois at Urbana–Champaign
-9113,785,Princeton University
-9107,801,"Indiana University;  Indiana University School of Informatics, Computing, and Engineering;  University of Michigan"
-9088,817,"University of California Irvine;  Tsinghua University;  University of California, Irvine;  Hong Kong University of Science and Technology"
-9154,97,University of Colorado Boulder
-9050,849,Vanderbilt University;  Damanhour University
-9036,865,OneSpan;  University College London
-9173,881,"University of Maryland, Baltimore County"
-9164,897,University of Washington
-9145, ,The University of Minnesota;  Colorado State University;  University of Minnesota
-9184,929,Lehigh University
-9120,945,Cornell University;  University of Twente
-9098,961,University of Washington
-9210,977,Stanford University
-9067,993,Cornell University;  Cornell Tech;  University of Washington
-9081,1009,"Drexel University;  University of Washington, Seattle;  University of Michigan"
-9155,1025,University of Waterloo
-9072,1041,Microsoft Research India;  University of Michigan
-9191,1057,TU Delft
-9249,1073,NYU School of Medicine;  New York University
-9276,1089,Northwestern University;  University of Washington
-9228,1105,University of Notre Dame
-9138,1121,University of Applied Sciences;  University of Siegen
-9292,1137,Human Centered Design & Engineering;  University of Washington
-9057,1153,University of North Carolina at Chapel Hill;  University of Washington
-9261,1169,University of Washington
-9046,1185,"Northern Arizona University;  Federal University of Technology, Paraná;  University of São Paulo"
-9201,1201,"University of California, Irvine"
-9012,1217,Northwestern University
-9163,1233,Polish-Japanese Academy of Information Technology;  Polish-Japanese Academy of Information Technology 
-9243,1249,Vanderbilt University;  Georgia Institute of Technology
-9079,1265,The Pennsylvania State University
-9094,1281,Microsoft;  Worcester Polytechnic Institute
-9169,1297,Microsoft Research;  MIT
-9221,1313,The University of Haifa;  University of Haifa
-9258,1329,Wikimedia Foundation;  MIT;  University of Michigan
-9206,1345,The University of Manchester;  Hong Kong University of Science and Technology
-9118,130,Newcastle University
-9149,1377,University of Colorado Boulder;  University of Washington
-9223,1393,"eBay, Inc.;  Alation Inc.;  Cornell University;  Northwestern University"
-9200,1409,Louisiana State University;  University of Florida;  University of Florida 
-9099,1425,Georgia Institute of Technology;  Harvard University
-9140,1441,Cornell University;  University of Colorado Boulder
-9152,1457,University of Washignton;  University of Washington
-9257,1473,Shanghai Jiao Tong University;  Australian National University;  Monash University
-9123,1489,University of Michigan
-9133,1505,University of Pennsylvania;  University of Washington;  University of Maryland
-9273,1521,Nokia Bell Labs;  Nokia Bell Labs ;  EPFL ;  Cornell University
-9266,1537,"University of California, Berkeley"
-9188,1553,University of Turin;  Nokia Bell Labs
-9202,1569,University of Washinton;  University of Washington
-9105,1585,"University of Maryland, Baltimore County (UMBC), USA ;  University of Maryland, Baltimore County (UMBC), USA;  University of Maryland, Baltimore County (UMBC)"
-9285,1601,UC San Diego;  
-9195,1617,Georgia Tech
-9244,1633,Queensland University of Technology (QUT);  University of Colombo School of Computing
-9215,1649,University of Michigan
-9170,1665,University of Michigan
-9179,1681,Massachusetts Institute of Technology;  University of Illinois at Urbana-Champaign
-9029,1697,University of Vermont
-9213,1713,Independent Researcher;  City University
-9177,1729,Rutgers University
-9240,1745,Tencent Inc.;  University of Chicago;  Carnegie Mellon University;  Tsinghua University
-9196,1761,Wikimedia Foundation;  University of Washington
-9207,1777,"University of California, Davis;  NTT Communication Science Labs ;  National Tsing-Hua University "
-9280,1793,Stanford University;  UC Berkeley
-9178,1809,Indian Institute of Technology Kharagpur;  McGill University;  Northwestern University
-9068,531,Georgia Institute of Technology;  Georgia Tech
-9016,531,Cornell Tech;  Georgia Tech
-9135,1857,University of Colorado;  University of Washington;  University of Colorado Boulder;  Stanford University
-9063,1873,UC Davis;  University of Tsukuba;  Fu Jen University;  Institute of Information Systems and Applications
-9227,1889,Research Institute of Big Data Analytics;  University of Peloponnese;  University of Maryland;  Utrecht University
-9114,1905,Microsoft;  Github Inc.;  Carnegie Mellon University;  University of Tartu
-9018,1921,The University of Sydney;  Massey University;  University of Technology Sydney
-9158,1937,UNSW Sydney;  University of Trento;  UNITN
-9248,1953,Microsoft Research India;  Aarhus University
-9162,1969,Zhejiang University
-9231,1985,Georgia Institute of Technology
-9250,2001,University of Stockholm;  KTH
-9125,2017,KAIST
-9282,2033,Osaka University;  Hong Kong University of Science and Technology
-9236,2049,University of Zurich;  Software Improvement Group;  Delft University of Technology
-9151,2065,Hebrew University of Jerusalem;  Carnegie Mellon University;  University of Maryland
-9082,65,Purdue University;  Florida State University
-9284,2097,University of Michigan ;  University of Chicago Crime Lab;  University of Notre Dame
-9100,2113,University College London;  UC Santa Cruz;  University of California Santa Cruz;  Anna Freud Centre;  UCL
-9238,2129,IUPUI
-9096,2145,Northeastern University
-9279,2161,University of Missouri;  University of Nebraska at Omaha
-9291,2177,University of Auckland;  Oath;  University of Washington
-9270,2193,Universitat Siegen;  University of Siegen
-9076,2209,"IIIT-DELHI;  Georgia Tech;  Indraprastha Institute of Information Technology, Delhi;  IIIT-Delhi"
-9047,2225,West Virginia University;  Universidad Nacional Autónoma de México;  Carnegie Mellon University
-9255,2241,"Wikimedia Foundation;  Indian Institute of Technology, Patna"
-9090,2257,University of Colorado Boulder
-9289,2273,Simon Fraser University
-9111,2289,Facebook;  Cornell University
-9058,2305,University of Washington; University College London ; Carnegie Mellon University ; Yahoo Research 
-9272,2321,IT University of Copenhagen;  University of Copenhagen
-9254,2337,University of Michigan;  Virginia Tech;  Georgia Institute of Technology
-9256,1763,GitHub;  
-9290,2273,University of Calgary;  Simon Fraser University
-9166,755,Universidade Federal de Campina Grande;  IBM Research;  University of Washington
-9093,2401,University of Bari
-9150,2417,University of Illinois at Urbana-Champaign;  University of Michigan
-9136,2433,Northwestern University
-9160,2449,University of Michigan
-9262,2465,Northwestern University
-9030,2481,University of California Berkeley;  UC Berkeley;  California College of the Arts;  University of Washington
-9212,2497,Columbia University;  Cornell University
-9208,2513,Microsoft Research;  University of Waterloo;  University of Michigan
-9038,2529,"UC Irvine;  University of California, Irvine;  Florida State University;  University of California Irvine"
-9204,2545,"University of California, Irvine"
-9037,2529,"UC Irvine;  American University;  University of California, Irvine;  University of California Irvine"
-9233,2577,"Indiana University, IUPUI;  Indiana University-Purdue University;  Indiana University"
-9043,2593,Princeton University
-9277,2609,"University of California, Irvine;  Northwestern University;  IBM Research"
-9198,2625,The University of Minnesota;  Wikimedia Foundation;  University of Minnesota
-9222,2641,Universitè Paris Diderot;  University of Bologna
-9189,2657,Carnegie Mellon University;  West Virginia University
-9142,2673,Qatar Computing Research Institute;  University of Washington; University of Washington
-9104,529,Georgia Tech;  Georgia Institute of Technology
-9092,66,"Arizona State university;  University of California Irvine;  University of California, Irvine"
-9109,2338,Virginia Tech
-9048,2737,Wikimedia Foundation;  
-9019,2225,Carnegie Mellon University
-9246,2769,Massachusetts Institute of Technology;  MIT
-9115,2785,"University of California, San Diego;  Cornell University"
-9278,2785,Cornell University
-9271,2817,"IBM Research - Almaden;  IBM;  University of California, Santa Cruz"
-9143,1441,University of Colorado Boulder;  University of Colorado
-9077,2849,"University of California Irvine;  UC Irvine;  University of California, Irvine"
-9121,2865,Drexel University;  Pace University
-9106,2881,Virginia Tech
-9127,2897,Northwestern University;  University of Minnesota
-9042,2913,"University of California, Santa Barbara"
-9066,2929,Northeastern University
-9252,2945,Norwegian University of Science and Technology (NTNU);  SINTEF
-9003,2961,"Carnegie Mellon University;  University of Pittsburgh; University of Pittsburgh ; University of Maryland, College Park"
-9078,2977,Blackbaud; Indiana University;  Indiana University;  Angie’s List
-9116,2993,Linköping University
-9144,3009,University of Southampton
-9175,2339,Georgia Institute of Technology
-9190,1793,Stanford University;  UC Berkeley
-9000,65,Purdue University
-9001,465,Northwestern University
-9002,3089,University of Illinois Urbana Champaign
-9004,3105,University College London (UCL)
-9005,3121,Seagate Technology;  University of Minnesota;  Fudan University
-9006,1009,Yahoo
-9007,3153,University of Michigan
-9010,3169,University of Washington
-9011,3185,Pennsylvania State University
-9013,3201,University College London;  Ca' Foscari University of Venice
-9014,3217,Northwestern University
-9015,3233,Victoria University of Wellington;  University of Waterloo
-9017,1954,Aarhus University
-9020,753,University of Washington
-9021,3281,University of Haifa;  UC Berkeley;  New York University
-9022,3297,Catholic University;  Stanford University
-9023,3313,Northeastern University
-9025,3329,Stanford University
-9027,65,"Oregon State University;  University of California, Irvine;  Purdue University"
-9028,3361,University of Waterloo;  New York University
-9031,3377,Cornell Tech;  Bangladesh University of Engineering and Technology;  Cornell University
-9032,628,Princeton University;  University of Maryland
-9033,3409,Clemson University
-9035,3425,Sangmyung University;  Hanyang University;  Seoul National University
-9039,2484,UC Berkeley;  University of California Berkeley
-9040,3457,School of Information Studies;  Syracuse University
-9045,3473,Wikimedia Foundation;  UC-Berkeley
-9049,530,Georgia Tech (*Both authors share first authorship on this paper);  Zeotap GmbH;  Georgia Institute of Technology
-9059,1473,Australian National University;  Nanyang Technological University
-9060,3521,Fudan University;  Indiana University Bloomington;  IBM T.J. Waston Research
-9064,3537,"University of Chicago;  University of California, Santa Barbara;  UC Santa Barbara"
-9065,3553,The University of Minnesota;  Northwestern University; Wikimedia Research ;  University of Minnesota ;  University of Minnesota
-9069,418,Northwestern University;  University of Minnesota;  University of Michigan
-9070,3585,University of North Carolina at Chapel Hill
-9071,3601,Indiana University Bloomington
-9073,3555,University of Washington;  ReadSense Technology Ltd.;  Northwestern University;  University of Minnesota
-9074,3633,"University of California Irvine;  UC Irvine;  University of California, Irvine"
-9075,66,"University of California Irvine;  Arizona State university;  Purdue University;  University of California, Irvine"
-9080,3665,University of Minnesota
-9083,3681,Indiana University Bloomington;  Syracuse University
-9084,3697,Kaiser Permanente Washington Health Research Institute;  University of Washington
-9085,3713,University of Illinois;  University of Illinois at Urbana-Champaign;  University of Illinois Urbana Champaign
-9086,3729,University of Michigan; University of Michigan
-9089,3745,"University of Washington;  Annenberg School for Communication & Journalism, University of Southern California"
-9091,3761,Clemson University;  Columbia University ;  Columbia Journalism School
-9095,2722,Georgia Institute of Technology;  Virginia Tech
-9101,3793,University of Texas at Austin;  University of Bristol;  University College London
-9103,3809,University of Glasgow
-9108,3825,Cornell University;  Hunter College;  City College of New York;  Cornell Tech
-9110,65,"Arizona State University;  University of California, Irvine;  Purdue University"
-9112,3857,University of Michigan
-9117,3873,IBM T.J. Waston Research;  University of Michigan
-9119,3889,University of Maryland Baltimore County
-9122,3905,"FX Palo Alto Laboratory, Inc.;  FXPAL;  University of California, Irvine"
-9124,3921,University of Glasgow
-9129,594,"University of Minnesota, Twin Cities;  University of Minnesota"
-9130,3938,University of Minnesota
-9134,3969,University of Minnesota ;  University of Minnesota
-9141,3985,Georgia Tech;  Georgia Institute of Technology
-9148,4001,University of Washington
-9156,4017,University of Washington
-9161,4033,INRIA;  Politecnico di Torino;  Nokia Bell Labs;  Former Nokia Bell Labs
-9165,4049,Cornell University
-9167,4065,Cornell University
-9168,4081,Indiana University Bloomington;  Indiana University
-9171,4097,Microsoft
-9174,2337,Emory University;  Georgia Institute of Technology
-9176,4129,Sassafras Tech Collective;  University of Michigan
-9180,4145,Coursera
-9183,1750,Carnegie Mellon University
-9185,4177,IIT Kharagpur;  Indian Institute of Technology Kharagpur
-9186,4193,New York University;  University of Waterloo
-9187,4209,The Tavistock Institute of Human Relations;  University of Siegen
-9192,2722,IBM;  IBM Research;  Virginia Tech
-9194,4241,University of Minnesota
-9197,4257,University of Michigan
-9199,4273,Pennsylvania State University;  The Pennsylvania State University;  University of Central Florida
-9203,4049,Cornell University; Cornell University ;  Cornell University ;  Cornell University
-9205,4305,"Zucker Hillside Hospital, Psychiatry Research;  Georgia Institute of Technology"
-9209,4321,Microsoft Research;  University of British Columbia;  University of Zurich
-9211,2626,The University of Minnesota;  University of Minnesota
-9216,4353,University of British Columbia;  Simon Fraser University;  University of Waterloo
-9218,1635,University of Michigan;  Queensland University of Technology
-9219,2961,University of Maryland
-9220,4401,Cornell Tech;  Facebook;  Cornell University
-9224,4417,Ruhr-University Bochum;  University of Pittsburgh;  University of Duisburg-Essen;  University of Tartu
-9225,4433,University of New Hampshire;  Wellesley College
-9226,4449,IBM T. J. Watson Research Center;  Eindhoven University of Technology (TU/e)
-9237,4465,University of Copenhagen
-9245,4481,University of Washington
-9251,4497,"Indiana University-Purdue University Indianapolis;  Indiana University, IUPUI"
-9253,1730,Rutgers University
-9259,4529,North Carolina State University;  Carnegie Mellon University
-9260,1170,Facebook;  University of Washington
-9264,4561,Georgia Institute of Technology
-9265,4577,University of Colorado;  University of Colorado Boulder
-9268,4529,Carnegie Mellon University
-9269,801,University of Michigan
-9274,3105,Nokia Bell Labs
-9275,4641,Engagement Lab at Emerson College
-9283,4657,University of Washington
-9287,4673,NTT Communication Science Laboratories;  University of Zurich
-9293,4689,KAIST;  Cornell University;  University of the Philippines Los Baños;  National University of Singapore
+9230,1, Stockholm University
+9230,2, Stockholm University
+9230,3, KTH Royal Institute of Technology
+9230,4, Stockholm University
+9286,17, University of Hamburg
+9286,18, Hans-Bredow-Institut
+9286,19, University of Hamburg
+9052,33, University of Toronto
+9052,34, University of Toronto
+9052,35, University of Toronto
+9024,49, KAIST
+9024,50, Technische Universität Berlin
+9024,51, KAIST
+9181,65, Florida State University
+9181,66," University of California, Irvine"
+9146,81, Syracuse University
+9146,82, Syracuse University
+9146,83, Syracuse University
+9126,97, University of Colorado Boulder
+9126,98, University of Colorado
+9126,99, University of Colorado Boulder
+9139,113, Stanford University
+9139,114, Facebook
+9139,115,  Northeastern University
+9229,129, Newcastle University
+9229,130, Newcastle University
+9229,131, Newcastle University
+9229,132, Newcastle University
+9193,145, Eindhoven University of Technology
+9193,146, Eindhoven University of Technology
+9193,147, University of Technology Eindhoven
+9193,148, Eindhoven University of Technology
+9056,161, IIIT Bangalore
+9241,177, Indiana University
+9241,178, Indiana University
+9044,193, Carnegie Mellon University
+9044,194, Ruhr-University Bochum
+9044,195, Carnegie Mellon University
+9044,196, Intel Corporation
+9044,197, Carnegie Mellon University
+9044,198, Intel Corporation
+9044,199, Intel
+9288,209, University of Illinois at Urbana-Champaign
+9288,210, University of Illinois at Urbana-Champaign
+9131,225, The University of Melbourne
+9131,226, The Open University
+9131,227, University of Bath
+9247,241, The University of Edinburgh
+9247,242, The University of Edinburgh
+9247,243, The University of Edinburgh
+9247,244, The University of Edinburgh
+9247,245, Northumbria University
+9234,257, UC San Diego
+9234,258, UC San Diego
+9234,259, Université de Lyon
+9234,260, UC San Diego
+9235,273, Lancaster University
+9235,274, Lancaster University
+9235,275, Monash University
+9281,289, Gfi Informatique
+9281,290, GFI Informatique
+9281,291, Strasbourg University
+9026,305, Virginia Tech
+9026,306, Virginia Tech
+9026,307, Virginia Tech
+9128,321, University of Tsukuba
+9128,322, University of Tsukuba
+9128,323, University of Tsukuba
+9128,324, University of Tsukuba
+9051,337, Virginia Tech
+9051,338, Virginia Tech
+9051,306, Virginia Tech
+9055,353, University of Washington
+9232,369, University of Edinburgh
+9232,370, University of Edinburgh
+9232,371, University of Edinburgh
+9232,372, University of Edinburgh
+9041,385, University of Michigan
+9041,386, University of Michigan
+9041,387, University of Michigan
+9061,401, University of Southampton
+9061,402, University of Southampton
+9214,417, University of Michigan
+9214,418, University of Michigan
+9267,433, University of California
+9267,434, UC Berkeley
+9267,435, UC Berkeley
+9267,436, UC Berkeley
+9267,437, UC Berkeley
+9008,449, Northwestern University
+9008,450, Northwestern University
+9008,451, Northwestern University
+9054,465, Northwestern University
+9054,466, Northwestern University
+9054,467, Northwestern University
+9054,468, Northwestern University
+9053,481, UC Berkeley
+9157,497, University of Waterloo
+9157,498, University of Waterloo
+9157,499, William Osler Health System
+9157,500, Sunnybrook Health Sciences Centre
+9157,501, University of Waterloo
+9147,513, Cornell University
+9147,514, Cornell University
+9087,529, Georgia Institute of Technology
+9087,530, University of Washington
+9087,531, Georgia Tech
+9159,545, KAIST
+9159,546, KAIST
+9159,547, KAIST
+9102,561, University of Waterloo
+9102,562, ISI Foundation
+9132,577, University of Applied Sciences Upper Austria
+9132,578, University of Applied Sciences Upper Austria
+9132,579, University of Applied Sciences Upper Austria
+9132,580, University of Applied Sciences Upper Austria
+9132,581, University of Applied Sciences Upper Austria
+9137,593, University of Minnesota
+9137,594, University of Minnesota
+9062,609,"  College of Information Studies, University of Maryland, College Park, USA"
+9217,625, University of Maryland
+9217,626, College of Information Studies
+9217,627, University of Maryland
+9217,628, University of Maryland
+9172,641, University of Washington
+9172,642,  University of Washington 
+9172,643,  University of Washington 
+9172,644, National University of Singapore
+9242,657, Northwestern Polytechnical University
+9242,658, northwestern polytechnical univ.
+9242,659, Department of Computer Science
+9242,660, Colorado School of Mines
+9242,661, Northwestern Polytechnical University
+9242,662, Northwestern Polytechnical University
+9239,673, University of Trier
+9239,674, University of Trier
+9034,689, Ruhr University 
+9034,690, University of Siegen
+9034,691, Fraunhofer Institute for Secure Information Technology
+9034,692, University of Siegen
+9182,705, Carnegie Mellon University
+9182,706, Carnegie Mellon University
+9009,721, University of Michigan School of Information
+9263,737, University of Maryland
+9263,738, University of Maryland
+9153,753, University of Washington
+9153,754, University of Washington
+9153,755, University of Washington
+9153,756, University of Washington
+9097,769, University of Illinois at Urbana–Champaign
+9097,770, University of Illinois at Urbana-Champaign
+9097,771, University of Illinois at Urbana–Champaign
+9097,772, university of illinois
+9113,785, Princeton University
+9113,786, Princeton University
+9113,787, Princeton University
+9107,801, University of Michigan
+9107,802," Indiana University School of Informatics, Computing, and Engineering"
+9107,803, Indiana University
+9088,817, Hong Kong University of Science and Technology
+9088,66," University of California, Irvine"
+9088,819, Tsinghua University
+9088,820, Hong Kong University of Science and Technology
+9088,821, University of California Irvine
+9088,822, University of California Irvine
+9154,97, University of Colorado Boulder
+9154,99, University of Colorado Boulder
+9050,849, Damanhour University
+9050,850, Vanderbilt University
+9050,851, Vanderbilt University
+9050,852, Damanhour University
+9050,853, Damanhour University
+9036,865, University College London
+9036,866, OneSpan
+9036,867, University College London
+9036,868, University College London
+9173,881," University of Maryland, Baltimore County"
+9173,882," University of Maryland, Baltimore County"
+9173,883," University of Maryland, Baltimore County"
+9173,884," University of Maryland, Baltimore County"
+9164,897, University of Washington
+9164,898, University of Washington
+9164,899, University of Washington
+9164,900, University of Washington
+9164,901, University of Washington
+9164,902, University of Washington
+9164,903, University of Washington
+9184,929, Lehigh University
+9184,930, Lehigh University
+9184,931, Lehigh University
+9120,945, University of Twente
+9120,946, Cornell University
+9120,947, Cornell University
+9120,514, Cornell University
+9098,961, University of Washington
+9098,962, University of Washington
+9098,963, University of Washington
+9210,977, Stanford University
+9210,978,
+9210,979, Stanford University
+9210,980, Stanford University
+9067,993, University of Washington
+9067,994, Cornell Tech
+9067,995, Cornell University
+9067,996, Cornell University
+9081,1009, University of Michigan
+9081,1010," University of Washington, Seattle"
+9081,1011, Drexel University
+9155,1025, University of Waterloo
+9155,498, University of Waterloo
+9155,1027, University of Waterloo
+9155,501, University of Waterloo
+9072,1041, University of Michigan
+9072,1042, University of Michigan
+9072,1043, University of Michigan
+9072,1044, University of Michigan
+9072,1045, University of Michigan
+9072,1046, University of Michigan
+9072,1047, University of Michigan
+9072,1048, Microsoft Research India
+9072,1049, Microsoft Research India
+9191,1057, TU Delft
+9191,1058, TU Delft
+9191,1059, TU Delft
+9249,1073, New York University
+9249,1074, New York University
+9249,1075, NYU School of Medicine
+9249,1076, New York University
+9276,1089, University of Washington
+9276,1090, Northwestern University
+9276,1091, University of Washington
+9228,1105, University of Notre Dame
+9228,1106, University of Notre Dame
+9228,1107, University of Notre Dame
+9138,1121, University of Siegen
+9138,1122, University of Siegen
+9138,1123, University of Applied Sciences
+9138,1124, University of Siegen
+9138,1125, University of Siegen
+9138,1126, University of Siegen
+9292,1137, University of Washington
+9292,1138, University of Washington
+9292,1139, University of Washington
+9292,1140, University of Washington
+9292,1141, Human Centered Design & Engineering
+9292,1142, University of Washington
+9057,1153, University of Washington
+9057,1091, University of Washington
+9057,1155, University of North Carolina at Chapel Hill
+9261,1169, University of Washington
+9261,1170, University of Washington
+9261,963, University of Washington
+9046,1185, University of São Paulo
+9046,1186," Federal University of Technology, Paraná"
+9046,1187, Northern Arizona University
+9046,1188," Federal University of Technology, Paraná"
+9046,1189," Federal University of Technology, Paraná"
+9046,1190," Federal University of Technology, Paraná"
+9046,1191, Northern Arizona University
+9201,1201," University of California, Irvine"
+9201,1202," University of California, Irvine"
+9201,1203," University of California, Irvine"
+9201,1204," University of California, Irvine"
+9012,1217, Northwestern University
+9012,1218, Northwestern University
+9163,1233, Polish-Japanese Academy of Information Technology 
+9163,1234, Polish-Japanese Academy of Information Technology
+9163,1235, Polish-Japanese Academy of Information Technology
+9163,1236, Polish-Japanese Academy of Information Technology
+9243,1249, Georgia Institute of Technology
+9243,1250, Vanderbilt University
+9079,1265, The Pennsylvania State University
+9079,1266, The Pennsylvania State University
+9079,1267, The Pennsylvania State University
+9079,1268, The Pennsylvania State University
+9079,1269, The Pennsylvania State University
+9079,1270, The Pennsylvania State University
+9079,1271, The Pennsylvania State University
+9094,1281, Worcester Polytechnic Institute
+9094,1282, Worcester Polytechnic Institute
+9094,1283, Worcester Polytechnic Institute
+9094,1284, Worcester Polytechnic Institute
+9094,1285, Microsoft
+9094,1286, Worcester Polytechnic Institute
+9169,1297, MIT
+9169,1298, Microsoft Research
+9221,1313, University of Haifa
+9221,1314, The University of Haifa
+9221,1315, University of Haifa
+9258,1329, University of Michigan
+9258,1297, MIT
+9258,1331, Wikimedia Foundation
+9258,1332, MIT
+9206,1345, Hong Kong University of Science and Technology
+9206,1346, Hong Kong University of Science and Technology
+9206,1347, Hong Kong University of Science and Technology
+9206,1348, The University of Manchester
+9206,1349, The University of Manchester
+9206,817, Hong Kong University of Science and Technology
+9118,130, Newcastle University
+9118,129, Newcastle University
+9118,1363, Newcastle University
+9118,1364, Newcastle University
+9118,132, Newcastle University
+9149,1377, University of Washington
+9149,755, University of Washington
+9149,1379, University of Colorado Boulder
+9149,1380, University of Washington
+9149,756, University of Washington
+9223,1393, Northwestern University
+9223,1394, Cornell University
+9223,1395, Alation Inc.
+9223,1396," eBay, Inc."
+9223,1397, Northwestern University
+9200,1409, University of Florida 
+9200,1410, University of Florida
+9200,1411, University of Florida
+9200,1412, Louisiana State University
+9200,1413, University of Florida
+9200,1414, University of Florida
+9099,1425, Harvard University
+9099,1426, Georgia Institute of Technology
+9099,1427, Georgia Institute of Technology
+9140,1441, University of Colorado Boulder
+9140,1442, Cornell University
+9152,1457, University of Washignton
+9152,1458, University of Washington
+9152,1459, University of Washington
+9257,1473, Monash University
+9257,1474, Australian National University
+9257,1475, Australian National University
+9257,1476, Australian National University
+9257,1477, Shanghai Jiao Tong University
+9123,1489, University of Michigan
+9123,1490, University of Michigan
+9123,1491, University of Michigan
+9123,1492, University of Michigan
+9133,1505, University of Maryland
+9133,1506, University of Washington
+9133,1507, University of Washington
+9133,1508, University of Pennsylvania
+9273,1521, Cornell University
+9273,1522, EPFL 
+9273,1523, Nokia Bell Labs 
+9273,1524, Nokia Bell Labs
+9266,1537," University of California, Berkeley"
+9188,1553, Nokia Bell Labs
+9188,1523, Nokia Bell Labs
+9188,1555, University of Turin
+9188,1524, Nokia Bell Labs
+9202,1569, University of Washington
+9202,1570, University of Washington
+9202,1571, University of Washington
+9202,1572, University of Washington
+9202,1573, University of Washington
+9202,1574, University of Washinton
+9105,1585," University of Maryland, Baltimore County (UMBC)"
+9285,1601, 
+9285,1602, 
+9285,1603, UC San Diego
+9195,1617, Georgia Tech
+9195,1618, Georgia Tech
+9195,1619, Georgia Tech
+9244,1633, University of Colombo School of Computing
+9244,1634, University of Colombo School of Computing
+9244,1635, Queensland University of Technology (QUT)
+9215,1649, University of Michigan
+9215,1650, University of Michigan
+9215,1043, University of Michigan
+9215,418, University of Michigan
+9170,1665, University of Michigan
+9170,1666, University of Michigan
+9170,1667, University of Michigan
+9179,1681, University of Illinois at Urbana-Champaign
+9179,1682, Massachusetts Institute of Technology
+9179,771, University of Illinois at Urbana-Champaign
+9179,1684, University of Illinois at Urbana-Champaign
+9179,210, University of Illinois at Urbana-Champaign
+9029,1697, University of Vermont
+9029,1698, University of Vermont
+9213,1713, City University
+9213,1714, Independent Researcher
+9177,1729, Rutgers University
+9177,1730, Rutgers University
+9240,1745, Tsinghua University
+9240,1746, Tsinghua University
+9240,1747, Tsinghua University
+9240,1748, Tsinghua University
+9240,1749, Tsinghua University
+9240,1750, Carnegie Mellon University
+9240,1751, University of Chicago
+9240,1752, Tencent Inc.
+9196,1761, University of Washington
+9196,353, University of Washington
+9196,1763, Wikimedia Foundation
+9196,1764, Wikimedia Foundation
+9196,1459, University of Washington
+9196,1142, University of Washington
+9207,1777, National Tsing-Hua University 
+9207,1778, NTT Communication Science Labs 
+9207,1779,"  University of California, Davis"
+9280,1793, UC Berkeley
+9280,980, Stanford University
+9178,1809, Northwestern University
+9178,1810, McGill University
+9178,1811, Indian Institute of Technology Kharagpur
+9178,1812, Indian Institute of Technology Kharagpur
+9068,531, Georgia Tech
+9068,1826, Georgia Institute of Technology
+9068,1827, Georgia Institute of Technology
+9016,531, Georgia Tech
+9016,1842, Cornell Tech
+9135,1857, Stanford University
+9135,1858, University of Colorado Boulder
+9135,1859, University of Washington
+9135,1860, University of Colorado
+9135,1861, University of Washington
+9063,1873, Institute of Information Systems and Applications
+9063,1874, Fu Jen University
+9063,321, University of Tsukuba
+9063,1779, UC Davis
+9227,1889, Utrecht University
+9227,1890, University of Maryland
+9227,1891, University of Peloponnese
+9227,1892, Research Institute of Big Data Analytics
+9227,1893, Research Institute of Big Data Analytics
+9114,1905, University of Tartu
+9114,1906, Carnegie Mellon University
+9114,1907, Github Inc.
+9114,1908, Microsoft
+9114,1909, Microsoft
+9114,1910, Carnegie Mellon University
+9018,1921, University of Technology Sydney
+9018,1922, Massey University
+9018,1923, The University of Sydney
+9158,1937, UNITN
+9158,1938, University of Trento
+9158,1939, University of Trento
+9158,1940, UNSW Sydney
+9248,1953, Aarhus University
+9248,1954, Aarhus University
+9248,1955, Microsoft Research India
+9248,1049, Microsoft Research India
+9162,1969, Zhejiang University
+9162,1970, Zhejiang University
+9162,1971, Zhejiang University
+9162,1972, Zhejiang University
+9162,1973, Zhejiang University
+9162,1974, Zhejiang University
+9162,1975, Zhejiang University
+9231,1985, Georgia Institute of Technology
+9231,1986, Georgia Institute of Technology
+9250,2001, KTH
+9250,4, University of Stockholm
+9125,2017, KAIST
+9125,2018, KAIST
+9125,545, KAIST
+9125,2020, KAIST
+9125,547, KAIST
+9282,2033, Hong Kong University of Science and Technology
+9282,2034, Osaka University
+9282,2035, Hong Kong University of Science and Technology
+9236,2049, Delft University of Technology
+9236,2050, Software Improvement Group
+9236,2051, University of Zurich
+9236,2052, Software Improvement Group
+9236,2053, University of Zurich
+9151,2065, University of Maryland
+9151,2066, Carnegie Mellon University
+9151,2067, Hebrew University of Jerusalem
+9151,2068, Hebrew University of Jerusalem
+9151,2069, Carnegie Mellon University
+9082,65, Florida State University
+9082,2082, Purdue University
+9284,2097, University of Notre Dame
+9284,1667, University of Michigan 
+9284,2099, University of Notre Dame
+9100,2113, UCL
+9100,2114, Anna Freud Centre
+9100,2115, University of California Santa Cruz
+9100,2116, UC Santa Cruz
+9100,2117, UC Santa Cruz
+9100,2118, University of California Santa Cruz
+9100,2119, University College London
+9100,2120, University of California Santa Cruz
+9238,2129, IUPUI
+9238,2130, IUPUI
+9238,2131, IUPUI
+9096,2145, Northeastern University
+9096,2146, Northeastern University
+9279,2161, University of Nebraska at Omaha
+9279,2162, University of Nebraska at Omaha
+9279,2163, University of Nebraska at Omaha
+9279,2164, University of Missouri
+9291,2177, University of Washington
+9291,2178, Oath
+9291,2179, University of Auckland
+9270,2193, University of Siegen
+9270,2194, University of Siegen
+9270,1125, Universitat Siegen
+9076,2209, IIIT-Delhi
+9076,2210," Indraprastha Institute of Information Technology, Delhi"
+9076,531, Georgia Tech
+9076,2212, IIIT-DELHI
+9047,2225, Carnegie Mellon University
+9047,2226, Universidad Nacional Autónoma de México
+9047,2227, West Virginia University
+9047,2228, Carnegie Mellon University
+9255,2241," Indian Institute of Technology, Patna"
+9255,2242, Wikimedia Foundation
+9090,2257, University of Colorado Boulder
+9090,1379, University of Colorado Boulder
+9090,2259, University of Colorado Boulder
+9289,2273, Simon Fraser University
+9289,2274, Simon Fraser University
+9111,2289, Cornell University
+9111,2290, Cornell University
+9111,2291, Facebook
+9111,2292, Facebook
+9058,2305,Yahoo Research 
+9058,2228,Carnegie Mellon University 
+9058,2307,Carnegie Mellon University 
+9058,2308,University College London 
+9058,2309,Carnegie Mellon University 
+9058,2310,University of Washington
+9272,2321, University of Copenhagen
+9272,2322, IT University of Copenhagen
+9272,2323, IT University of Copenhagen
+9254,2337, Georgia Institute of Technology
+9254,2338, Virginia Tech
+9254,2339, Georgia Institute of Technology
+9254,2340, University of Michigan
+9254,2341, Georgia Institute of Technology
+9254,2342, University of Michigan
+9254,1619, Georgia Institute of Technology
+9254,2344, University of Michigan
+9256,1763, 
+9256,1907, GitHub
+9290,2273, Simon Fraser University
+9290,2370, University of Calgary
+9290,2274, Simon Fraser University
+9290,2372, Simon Fraser University
+9166,755, University of Washington
+9166,2386, IBM Research
+9166,2387, Universidade Federal de Campina Grande
+9166,756, University of Washington
+9093,2401, University of Bari
+9093,2402, University of Bari
+9093,2403, University of Bari
+9093,2404, University of Bari
+9150,2417, University of Michigan
+9150,2418, University of Illinois at Urbana-Champaign
+9150,2419, University of Illinois at Urbana-Champaign
+9136,2433, Northwestern University
+9136,1218, Northwestern University
+9160,2449, University of Michigan
+9160,2450, University of Michigan
+9160,2451, University of Michigan
+9160,2452, University of Michigan
+9160,2453, University of Michigan
+9160,2454, University of Michigan
+9160,2455, University of Michigan
+9262,2465, Northwestern University
+9262,2466, Northwestern University
+9262,2467, Northwestern University
+9262,467, Northwestern University
+9030,2481, California College of the Arts
+9030,2482, University of Washington
+9030,2483, UC Berkeley
+9030,2484, University of California Berkeley
+9212,2497, Cornell University
+9212,2498, Cornell University
+9212,2499, Cornell University
+9212,2500, Cornell University
+9212,2501, Cornell University
+9212,2502, Columbia University
+9208,2513, University of Michigan
+9208,2514, University of Waterloo
+9208,2515, Microsoft Research
+9208,2455, University of Michigan
+9208,2517, Microsoft Research
+9208,2518, Microsoft Research
+9038,2529, University of California Irvine
+9038,65, Florida State University
+9038,2531," University of California, Irvine"
+9038,2532, UC Irvine
+9204,2545,"  University of California, Irvine"
+9204,2546,"  University of California, Irvine"
+9204,1204,"  University of California, Irvine"
+9037,2529, University of California Irvine
+9037,66," University of California, Irvine"
+9037,821, University of California Irvine
+9037,2564, American University
+9037,2532, UC Irvine
+9233,2577, Indiana University
+9233,2578, Indiana University-Purdue University
+9233,2579, Indiana University
+9233,2129," Indiana University, IUPUI"
+9233,178, Indiana University
+9043,2593, Princeton University
+9043,2594, Princeton University
+9043,787, Princeton University
+9043,2596, Princeton University
+9277,2609, IBM Research
+9277,2610, Northwestern University
+9277,2611," University of California, Irvine"
+9277,2612," University of California, Irvine"
+9198,2625, University of Minnesota
+9198,2626, University of Minnesota
+9198,2242, Wikimedia Foundation
+9198,2628, The University of Minnesota
+9222,2641, University of Bologna
+9222,2642, University of Bologna
+9222,2643, Universitè Paris Diderot
+9189,2657, West Virginia University
+9189,2658, Carnegie Mellon University
+9189,2227, West Virginia University
+9142,2673,University of Washington
+9104,529, Georgia Institute of Technology
+9104,531, Georgia Tech
+9092,66," University of California, Irvine"
+9092,821, University of California Irvine
+9092,2707, Arizona State university
+9109,2338, Virginia Tech
+9109,2722, Virginia Tech
+9048,2737, 
+9048,2628, 
+9048,2242, Wikimedia Foundation
+9019,2225, Carnegie Mellon University
+9019,2754, Carnegie Mellon University
+9019,2755, Carnegie Mellon University
+9019,2756, Carnegie Mellon University
+9246,2769, MIT
+9246,2770, Massachusetts Institute of Technology
+9246,2771, Massachusetts Institute of Technology
+9246,2772, MIT
+9246,2773, MIT
+9115,2785, Cornell University
+9115,2786," University of California, San Diego"
+9115,2787," University of California, San Diego"
+9278,2785, Cornell University
+9278,2497, Cornell University
+9278,2803, Cornell University
+9271,2817," University of California, Santa Cruz"
+9271,2818," University of California, Santa Cruz"
+9271,2819, IBM
+9271,2820, IBM Research - Almaden
+9271,2821," University of California, Santa Cruz"
+9143,1441, University of Colorado
+9143,2834, University of Colorado Boulder
+9077,2849," University of California, Irvine"
+9077,2850, UC Irvine
+9077,2851," University of California, Irvine"
+9077,1204," University of California, Irvine"
+9077,821, University of California Irvine
+9121,2865, Pace University
+9121,2866, Drexel University
+9106,2881, Virginia Tech
+9106,2882, Virginia Tech
+9106,2883, Virginia Tech
+9106,2884, Virginia Tech
+9127,2897, University of Minnesota
+9127,2898, University of Minnesota
+9127,2899, University of Minnesota
+9127,2628, University of Minnesota
+9127,467, Northwestern University
+9042,2913," University of California, Santa Barbara"
+9042,2914," University of California, Santa Barbara"
+9042,2915," University of California, Santa Barbara"
+9042,2916," University of California, Santa Barbara"
+9066,2929, Northeastern University
+9066,2145, Northeastern University
+9066,2931, Northeastern University
+9066,2932, Northeastern University
+9066,2933, Northeastern University
+9066,2146, Northeastern University
+9252,2945, SINTEF
+9252,2946, Norwegian University of Science and Technology (NTNU)
+9003,2961,"University of Maryland, College Park"
+9003,2962,University of Pittsburgh 
+9003,2963, University of Pittsburgh
+9003,2964, Carnegie Mellon University
+9078,2977, Angie’s List
+9078,803, Indiana University
+9078,802,Indiana University
+9078,2980, Blackbaud
+9116,2993, Linköping University
+9144,3009,
+9144,3010,University of Southampton
+9144,3011,
+9144,3012,
+9175,2339,  Georgia Institute of Technology
+9190,1793, UC Berkeley
+9190,980, Stanford University
+9000,65, Purdue University
+9000,2082, Purdue University
+9001,465, Northwestern University
+9001,3074, Northwestern University
+9001,468, Northwestern University
+9002,3089, University of Illinois Urbana Champaign
+9002,3090, University of Illinois Urbana Champaign
+9002,210, University of Illinois Urbana Champaign
+9004,3105, University College London (UCL)
+9004,3106, University College London (UCL)
+9005,3121, Fudan University
+9005,2625, University of Minnesota
+9005,3123, Fudan University
+9005,3124, Seagate Technology
+9005,3125, Fudan University
+9005,3126, Fudan University
+9006,1009, Yahoo
+9006,2178, Yahoo
+9006,3139, Yahoo
+9007,3153, University of Michigan
+9007,3154, University of Michigan
+9007,3155, University of Michigan
+9010,3169, University of Washington
+9010,3170, University of Washington
+9010,2482, University of Washington
+9010,3172, University of Washington
+9011,3185, Pennsylvania State University
+9011,3186, Pennsylvania State University
+9011,3187, Pennsylvania State University
+9011,3188, Pennsylvania State University
+9011,3189, Pennsylvania State University
+9013,3201, Ca' Foscari University of Venice
+9013,3202, University College London
+9013,3203, University College London
+9014,3217, Northwestern University
+9014,3218, Northwestern University
+9015,3233, University of Waterloo
+9015,3234, University of Waterloo
+9015,3235, Victoria University of Wellington
+9017,1954, Aarhus University
+9017,3250, Aarhus University
+9020,753, University of Washington
+9020,1142, University of Washington
+9020,756, University of Washington
+9021,3281, New York University
+9021,3282, New York University
+9021,3283, UC Berkeley
+9021,1315, University of Haifa
+9021,3285, New York University
+9022,3297, Stanford University
+9022,3298, Catholic University
+9023,3313, Northeastern University
+9023,3314, Northeastern University
+9023,3315, Northeastern University
+9023,3316, Northeastern University
+9025,3329, Stanford University
+9025,980, Stanford University
+9025,3331, Stanford University
+9027,65, Purdue University
+9027,66," University of California, Irvine"
+9027,3347, Oregon State University
+9027,3348," University of California, Irvine"
+9028,3361, New York University
+9028,3362, New York University
+9028,3363, New York University
+9028,2514, University of Waterloo
+9028,3365, University of Waterloo
+9028,3366, New York University
+9028,501, University of Waterloo
+9028,3368, New York University
+9028,3285, New York University
+9031,3377, Cornell University
+9031,3378, Bangladesh University of Engineering and Technology
+9031,3379, Cornell University
+9031,1842, Cornell Tech
+9032,628, University of Maryland
+9032,3394, University of Maryland
+9032,3395, University of Maryland
+9032,787, Princeton University
+9032,3397, University of Maryland
+9032,625, University of Maryland
+9033,3409, Clemson University
+9033,3410, Clemson University
+9033,3411, Clemson University
+9033,3412, Clemson University
+9033,3413, Clemson University
+9035,3425, Seoul National University
+9035,3426, Hanyang University
+9035,3427, Seoul National University
+9035,3428, Seoul National University
+9035,3429, Seoul National University
+9035,3430, Sangmyung University
+9039,2484, University of California Berkeley
+9039,3442, UC Berkeley
+9039,434, UC Berkeley
+9039,3444, UC Berkeley
+9039,2481, UC Berkeley
+9040,3457, Syracuse University
+9040,3458, Syracuse University
+9040,3459, School of Information Studies
+9045,3473, UC-Berkeley
+9045,2242, Wikimedia Foundation
+9049,530, Georgia Institute of Technology
+9049,3490, Georgia Institute of Technology
+9049,3491, Georgia Institute of Technology
+9049,3492, Zeotap GmbH
+9049,531, Georgia Tech (*Both authors share first authorship on this paper)
+9059,1473, Nanyang Technological University
+9059,1476, Australian National University
+9059,3507, Nanyang Technological University
+9060,3521, IBM T.J. Waston Research
+9060,3522, Indiana University Bloomington
+9060,3123, Fudan University
+9064,3537, UC Santa Barbara
+9064,3538," University of California, Santa Barbara"
+9064,3539, University of Chicago
+9064,2914," University of California, Santa Barbara"
+9064,3541, University of Chicago
+9064,1751, University of Chicago
+9065,3553, University of Minnesota
+9065,2899, University of Minnesota 
+9065,3555, University of Minnesota
+9065,2242,Wikimedia Research 
+9065,467, Northwestern University
+9065,2628, The University of Minnesota
+9065,3559, University of Minnesota
+9069,418, University of Michigan
+9069,3570, University of Minnesota
+9069,3571, University of Michigan
+9069,3572, University of Minnesota
+9069,467, Northwestern University
+9069,2625, University of Minnesota
+9070,3585, University of North Carolina at Chapel Hill
+9070,3586, University of North Carolina at Chapel Hill
+9071,3601, Indiana University Bloomington
+9073,3555, University of Minnesota
+9073,3618, University of Minnesota
+9073,3619, University of Minnesota
+9073,3620, Northwestern University
+9073,3621, ReadSense Technology Ltd.
+9073,3622, University of Washington
+9073,2625, University of Minnesota
+9074,3633," University of California, Irvine"
+9074,2850, UC Irvine
+9074,3635," University of California, Irvine"
+9074,3636," University of California, Irvine"
+9074,822, University of California Irvine
+9074,821, University of California Irvine
+9075,66," University of California, Irvine"
+9075,3650," University of California, Irvine"
+9075,65, Purdue University
+9075,2707, Arizona State university
+9075,821, University of California Irvine
+9080,3665, University of Minnesota
+9080,594, University of Minnesota
+9083,3681, Syracuse University
+9083,3682, Indiana University Bloomington
+9083,3683, Indiana University Bloomington
+9083,3684, Syracuse University
+9083,3685, Indiana University Bloomington
+9084,3697, University of Washington
+9084,3698, Kaiser Permanente Washington Health Research Institute
+9084,3699, Kaiser Permanente Washington Health Research Institute
+9084,3700, University of Washington
+9084,3701, Kaiser Permanente Washington Health Research Institute
+9084,3702, Kaiser Permanente Washington Health Research Institute
+9085,3713, University of Illinois Urbana Champaign
+9085,3714, University of Illinois at Urbana-Champaign
+9085,771, University of Illinois
+9085,3719,
+9086,3729,University of Michigan
+9086,3730, University of Michigan
+9086,3731, University of Michigan
+9086,3732, University of Michigan
+9089,3745," Annenberg School for Communication & Journalism, University of Southern California"
+9089,3746, University of Washington
+9091,3761, Columbia Journalism School
+9091,3762, Columbia University 
+9091,3413, Clemson University
+9095,2722, Virginia Tech
+9095,3778, Georgia Institute of Technology
+9095,2344, Georgia Institute of Technology
+9101,3793, University College London
+9101,3794, University of Bristol
+9101,3795, University College London
+9101,3796, University College London
+9101,3797, University of Texas at Austin
+9103,3809, University of Glasgow
+9103,3810, University of Glasgow
+9108,3825, Cornell Tech
+9108,3826, City College of New York
+9108,3827, Hunter College
+9108,996, Cornell University
+9108,3829, Cornell Tech
+9108,1842, Cornell Tech
+9110,65, Purdue University
+9110,66," University of California, Irvine"
+9110,821," University of California, Irvine"
+9110,3844, Arizona State University
+9112,3857, University of Michigan
+9112,3858, University of Michigan
+9112,1667, University of Michigan
+9112,3860, University of Michigan
+9117,3873, University of Michigan
+9117,3521, IBM T.J. Waston Research
+9119,3889, University of Maryland Baltimore County
+9122,3905," University of California, Irvine"
+9122,3906, FXPAL
+9122,3907," FX Palo Alto Laboratory, Inc."
+9124,3921, University of Glasgow
+9124,3922, University of Glasgow
+9124,3923, University of Glasgow
+9124,3924, University of Glasgow
+9129,594, University of Minnesota
+9129,3938, University of Minnesota
+9129,3939," University of Minnesota, Twin Cities"
+9129,3940, University of Minnesota
+9129,3941, University of Minnesota
+9129,3942, University of Minnesota
+9129,3943, University of Minnesota
+9130,3938, University of Minnesota
+9130,594, University of Minnesota
+9134,3969, University of Minnesota
+9134,3970, University of Minnesota
+9134,3971, University of Minnesota 
+9134,3972, University of Minnesota
+9134,3973, University of Minnesota
+9134,3974, University of Minnesota
+9134,3975, University of Minnesota
+9134,594, University of Minnesota
+9141,3985, Georgia Institute of Technology
+9141,3986, Georgia Tech
+9141,531, Georgia Tech
+9148,4001, University of Washington
+9148,4002, University of Washington
+9156,4017, University of Washington
+9156,1459, University of Washington
+9156,4019, University of Washington
+9161,4033, Former Nokia Bell Labs
+9161,4034, Nokia Bell Labs
+9161,4035, Politecnico di Torino
+9161,4036, INRIA
+9161,4037, Politecnico di Torino
+9165,4049, Cornell University
+9165,4050, Cornell University
+9167,4065, Cornell University
+9167,4066, Cornell University
+9167,947, Cornell University
+9167,4050, Cornell University
+9168,4081, Indiana University
+9168,4082, Indiana University
+9168,4083, Indiana University Bloomington
+9168,803, Indiana University
+9168,802, Indiana University
+9171,4097, Microsoft
+9171,4098, Microsoft
+9171,4099, Microsoft
+9171,4100, Microsoft
+9171,4101, Microsoft
+9171,4102, Microsoft
+9174,2337, Georgia Institute of Technology
+9174,1617, Georgia Institute of Technology
+9174,4115, Georgia Institute of Technology
+9174,4116, Emory University
+9174,1619, Georgia Institute of Technology
+9174,2344, Georgia Institute of Technology
+9176,4129, University of Michigan
+9176,4130, Sassafras Tech Collective
+9176,4131, University of Michigan
+9176,2342, University of Michigan
+9180,4145, Coursera
+9183,1750, Carnegie Mellon University
+9183,4162, Carnegie Mellon University
+9185,4177, Indian Institute of Technology Kharagpur
+9185,4178, Indian Institute of Technology Kharagpur
+9185,4179, Indian Institute of Technology Kharagpur
+9185,4180, IIT Kharagpur
+9186,4193, University of Waterloo
+9186,4194, New York University
+9186,1073, New York University
+9186,1076, New York University
+9187,4209, University of Siegen
+9187,4210, University of Siegen
+9187,4211, The Tavistock Institute of Human Relations
+9187,4212, The Tavistock Institute of Human Relations
+9192,2722, Virginia Tech
+9192,2386, IBM Research
+9192,4227, IBM
+9192,4228, IBM
+9192,4229, IBM
+9194,4241, University of Minnesota
+9194,2625, University of Minnesota
+9194,3559, University of Minnesota
+9197,4257, University of Michigan
+9197,4258, University of Michigan
+9197,3857, University of Michigan
+9197,4260, University of Michigan
+9197,4261, University of Michigan
+9199,4273, University of Central Florida
+9199,4274, University of Central Florida
+9199,2564, The Pennsylvania State University
+9199,3188, The Pennsylvania State University
+9199,3189, Pennsylvania State University
+9203,4049, Cornell University
+9203,4050, Cornell University
+9203,4291, Cornell University 
+9203,4292,Cornell University 
+9203,4293,Cornell University
+9205,4305, Georgia Institute of Technology
+9205,4306," Zucker Hillside Hospital, Psychiatry Research"
+9205,4307," Zucker Hillside Hospital, Psychiatry Research"
+9205,4308," Zucker Hillside Hospital, Psychiatry Research"
+9205,4309, Georgia Institute of Technology
+9209,4321, University of Zurich
+9209,4322, University of British Columbia
+9209,4323, University of British Columbia
+9209,4324, Microsoft Research
+9211,2626, University of Minnesota
+9211,4338, University of Minnesota
+9211,2628, The University of Minnesota
+9211,2625, University of Minnesota
+9216,4353, University of Waterloo
+9216,4354, University of Waterloo
+9216,4355, Simon Fraser University
+9216,4356, University of British Columbia
+9216,4357, Simon Fraser University
+9218,1635, Queensland University of Technology
+9218,418, University of Michigan
+9219,2961, University of Maryland
+9219,4386, University of Maryland
+9220,4401, Cornell University
+9220,4402, Facebook
+9220,4403, Facebook
+9220,4404, Cornell Tech
+9224,4417, University of Tartu
+9224,1905, University of Tartu
+9224,4419, University of Duisburg-Essen
+9224,2962, University of Pittsburgh
+9224,4421, Ruhr-University Bochum
+9225,4433, Wellesley College
+9225,4434, Wellesley College
+9225,4435, University of New Hampshire
+9225,4436, University of New Hampshire
+9225,4437, University of New Hampshire
+9226,4449, Eindhoven University of Technology (TU/e)
+9226,4450, IBM T. J. Watson Research Center
+9237,4465, University of Copenhagen
+9237,4466, University of Copenhagen
+9245,4481, University of Washington
+9245,4482, University of Washington
+9245,4483, University of Washington
+9251,4497," Indiana University, IUPUI"
+9251,4498, Indiana University-Purdue University Indianapolis
+9251,2129," Indiana University, IUPUI"
+9253,1730, Rutgers University
+9253,4514, Rutgers University
+9259,4529, Carnegie Mellon University
+9259,4530, North Carolina State University
+9259,4531, North Carolina State University
+9259,4532, Carnegie Mellon University
+9260,1170, University of Washington
+9260,1169, University of Washington
+9260,4547, Facebook
+9260,4548, University of Washington
+9260,963, University of Washington
+9264,4561, Georgia Institute of Technology
+9264,4309, Georgia Institute of Technology
+9265,4577, University of Colorado Boulder
+9265,98, University of Colorado
+9265,99, University of Colorado Boulder
+9268,4529, Carnegie Mellon University
+9268,4532, Carnegie Mellon University
+9268,2756, Carnegie Mellon University
+9269,801, University of Michigan
+9269,4610, University of Michigan
+9274,3105, Nokia Bell Labs
+9274,4626, Nokia Bell Labs
+9274,1524, Nokia Bell Labs
+9275,4641, Engagement Lab at Emerson College
+9283,4657, University of Washington
+9283,4658, University of Washington
+9287,4673, University of Zurich
+9287,1778, NTT Communication Science Laboratories
+9287,4675, University of Zurich
+9287,4676, University of Zurich
+9287,4677, University of Zurich
+9287,4678, University of Zurich
+9293,4689, National University of Singapore
+9293,4690, University of the Philippines Los Baños
+9293,4691, Cornell University
+9293,51, KAIST
+9293,4693, National University of Singapore

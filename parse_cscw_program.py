@@ -187,8 +187,60 @@ def parse_affiliations(text, paper_id):
     affiliation_str = affiliation_str.strip(" ").strip(";")
     return(affiliation_str)
 
-# generates the affiliations.csv file
+# row["ACM Author Affiliations"], new_author["First name"], new_author["Last name"]
+def get_author_affiliation(acm_affiliations, first_name, last_name):
+    if(acm_affiliations == "NA"):
+        return "NA"
+    temp = acm_affiliations.split(";") # separates all author:affiliation
+    if(temp):
+        for item in temp:
+            if (item != "NA"):
+                if((first_name in item) and (last_name in item)):
+                    temp_affiliation = item.split(":")  # separates
+                    affiliation = temp_affiliation[1]
+                    return affiliation
+    return ""
+
 def write_affiliations_file(paper_list):
+    with open('affiliations.csv', 'w', encoding="utf-8") as affiliations_file:
+        fieldnames = [
+            "Paper Id",
+            "User Id",
+            "Institution",
+        ]
+
+        writer_affiliations = csv.DictWriter(affiliations_file, fieldnames=fieldnames)
+
+        # adds the header row to the file
+        head_row={}
+        for item in fieldnames:
+            head_row[item] = item
+        writer_affiliations.writerow(head_row)
+
+        # affiliations dictionary by paper id
+        affiliations = {}
+
+        # go through each item in the paper list and extract the affiliations
+        for row in paper_list:
+            new_row = {}
+            new_row["Paper Id"] = row["Paper Number"]
+
+            # get the list of authors
+            for i in range(1, 17):
+                if (row["Author " + str(i) + " - last"] != ""):
+                    new_author = {}
+                    new_author["First name"] = row["Author " + str(i) + " - first"]
+                    new_author["Middle initial"] = row["Author " + str(i) + " - middle"]
+                    new_author["Last name"] = row["Author " + str(i) + " - last"]
+
+                    # go through the list of authors in ACM Author Affiliations and extract their affiliation and their user id
+                    new_row["User Id"] = get_author_id(new_author["First name"], new_author["Last name"])
+                    new_row["Institution"] = get_author_affiliation(row["ACM Author Affiliations"], new_author["First name"], new_author["Last name"])
+                    # print(new_row["Institution"])
+                    writer_affiliations.writerow(new_row)
+
+# generates the affiliations.csv file
+def write_affiliations_file_old(paper_list):
     with open('affiliations.csv', 'w', encoding="utf-8") as affiliations_file:
         fieldnames = [
             "Paper Id",
@@ -271,17 +323,7 @@ def get_chair_id(first_name, last_name):
     # check if this person is in the people list, if it is return the id
     return " "
 
-def get_first_author_id(paper_id):
-    first_name = ""
-    last_name = ""
-
-    paper_list = []
-    with open('confer_data_with_authors.csv', encoding="utf-8") as r_papers:
-        reader = csv.DictReader(r_papers, delimiter=',', quotechar='"')
-        for row in reader:
-            if(paper_id == row["Paper Number"]):
-                first_name = row["Author 1 - first"]
-                last_name = row["Author 1 - last"]
+def get_author_id(first_name, last_name):
 
     # get people list
     # read the people list from people.csv
