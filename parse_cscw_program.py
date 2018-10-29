@@ -193,11 +193,16 @@ def get_author_affiliation(acm_affiliations, first_name, last_name):
         return "NA"
     temp = acm_affiliations.split(";") # separates all author:affiliation
     if(temp):
+        #
         for item in temp:
             if (item != "NA"):
                 if((first_name in item) and (last_name in item)):
                     temp_affiliation = item.split(":")  # separates
-                    affiliation = temp_affiliation[1]
+                    print(temp_affiliation)
+                    if(len(temp_affiliation) > 1):
+                        affiliation = temp_affiliation[1]
+                    else:
+                        affiliation = temp_affiliation[0]
                     return affiliation
     return ""
 
