@@ -355,6 +355,7 @@ def get_sessions_with_chair_names_dict():
         chairs_dict[item["Session ID"]] = {}
         chairs_dict[item["Session ID"]]["Session ID"] = item["Session ID"]
         chairs_dict[item["Session ID"]]["Session Chair Ids"] = ""
+        chairs_dict[item["Session ID"]]["Type"] = item["Type"]
 
         # if there are several chairs in the list
         if(item["Session Chair Ids"].strip(";") == "NA"):
@@ -413,7 +414,7 @@ def write_sessions_file(paper_list):
         # go through the list of papers and add each paper that matches this particular session number
         for row in paper_list:
             session[row["S #"]]["Name"] = row["S Name"]
-            session[row["S #"]]["Type"] = "Papers" # TODO this needs to be updated with the appropriate infor
+            session[row["S #"]]["Type"] = session_chairs_dict[row["S #"]]["Type"] # TODO this needs to be updated with the appropriate infor
             session[row["S #"]]["Date (yyyy-MM-dd)"] = parse_date(row["Day"])
             session[row["S #"]]["Start time (HH:mm in 24-h format)"] = parse_time(row["Session Start Time"])
             session[row["S #"]]["End time (HH:mm in 24-h format)"] = parse_time(row["S End"])
