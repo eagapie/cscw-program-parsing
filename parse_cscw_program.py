@@ -16,6 +16,7 @@ def get_confer_data():
         write_sessions_file(paper_list)
         write_affiliations_file(paper_list)
         write_papers_file(paper_list)
+        write_regenerated_confer_data(paper_list)
 
 # generate author list ids based on the row entry for this paper
 def generate_author_list(row):
@@ -358,6 +359,7 @@ def get_sessions_with_chair_names_dict():
         chairs_dict[item["Session ID"]] = {}
         chairs_dict[item["Session ID"]]["Session ID"] = item["Session ID"]
         chairs_dict[item["Session ID"]]["Session Chair Ids"] = ""
+        chairs_dict[item["Session ID"]]["Session Chair Name"] = ""
         chairs_dict[item["Session ID"]]["Type"] = item["Type"]
 
         # if there are several chairs in the list
@@ -365,6 +367,8 @@ def get_sessions_with_chair_names_dict():
             chairs_dict[item["Session ID"]]["Session Chair Ids"] = "NA"
         else:
             chair_list = item["Session Chair Ids"].strip(";").split(";")
+            chairs_dict[item["Session ID"]]["Session Chair Name"] = chair_list
+
             for item_chair in chair_list:
                 # if id is NA return
                 if(item_chair == "NA"):
@@ -373,6 +377,7 @@ def get_sessions_with_chair_names_dict():
                     # each name gets parsed in first and last name
                     chair_name = item_chair.split(" ")
                     chair_id = get_chair_id(chair_name[0], chair_name[1])
+
                     chairs_dict[item["Session ID"]]["Session Chair Ids"] = chair_id + ";" + chairs_dict[item["Session ID"]]["Session Chair Ids"]
 
 
@@ -427,6 +432,34 @@ def write_sessions_file(paper_list):
         for key in session:
             session[key]["Paper Ids"] = session[key]["Paper Ids"].strip(";")
             writer_session.writerow(session[key])
+
+def write_regenerated_confer_data(paper_list):
+    with open('confer_data_with_session_chairs.csv', 'w', encoding="utf-8") as confer_chairs_data:
+        fieldnames = list(paper_list[0].keys()) # the first line in the paper list
+        # for item in top_row:
+        # print(list(fieldnames))
+        fieldnames.append("Session chair")
+
+        # fieldnames["Session chair"] = "Session chair"
+        writer_confer = csv.DictWriter(confer_chairs_data, fieldnames=fieldnames)
+
+        head_row={}
+        for item in fieldnames:
+            head_row[item] = item
+        head_row["Session chair"] = "Session chair"
+        writer_confer.writerow(head_row)
+
+        session_chairs_dict = get_sessions_with_chair_names_dict()
+        # print(session_chairs_dict)
+
+        # create a new row and somehow add a new element to the new row
+        for row in paper_list:
+            new_row = {}
+            for item in row:
+                new_row[item] = row[item]
+            new_row["Session chair"] = session_chairs_dict[row["S #"]]["Session Chair Name"][0]
+
+            writer_confer.writerow(new_row)
 
 
 get_confer_data()
