@@ -79,7 +79,7 @@ User Id,First name,Middle initial,Last name
 386,Benjamin,,Zimmerman
 387,Florian,,Schaub
 401,Alessandro,,Piscopo
-402,Elena,,Simperl
+402,Elena,,Simper
 417,Joey Chiao-Yin,,Hsiao
 418,Tawanna,,Dillahunt
 433,Noura,,Howell
@@ -324,7 +324,7 @@ User Id,First name,Middle initial,Last name
 1489,Ayse,G.,Buyuktur
 1490,Pei-Yao,,Hung
 1491,Mark W.,,Newman
-1492,Mark S.,,Ackerman
+1492,Mark ,S.,Ackerman
 1505,Amanda,,Lazar
 1506,Hilaire,,Thompson
 1507,Shih-Yin,,Lin
@@ -467,7 +467,6 @@ User Id,First name,Middle initial,Last name
 2179,Danielle,,Lottridge
 2193,Thomas,,Ludwig
 2194,Volkmar,,Pipek
-2195,Peter,David,Tolmie
 2209,Anupriya,,Tuli
 2210,Shaan,,Chopra
 2212,Pushpendra,,Singh
@@ -610,15 +609,12 @@ User Id,First name,Middle initial,Last name
 2977,Shad,,Gross
 2980, Michael,,Stallings
 2993,Sofie,,Pilemalm
-3009,Elena,I,Simper
 3010,Neal ,,Reeves
 3011,Todd,,Lynes
 3012,Ramine,,Tinati
 3074,Darren,,Gergle
-3075,Elizabeth,M,Gerber
 3089,Sneha,R. Krishna ,Kumaran
 3090, Deana,,McDonagh
-3091,Brian,,Bailey
 3105,Martin,,Dittus
 3106,Licia,,Capra
 3121,Peng,,Zhang
@@ -636,7 +632,6 @@ User Id,First name,Middle initial,Last name
 3185,Chien ,Wen (Tina),Yuan
 3186,Benjamin,V.,Hanrahan
 3187,Sooyeon,,Lee
-3188,Mary,Beth,Rosson
 3189,John,M.,Carroll
 3201,Yvonne,,Vezzoli
 3202,Asimina,,Vasalou
@@ -690,7 +685,6 @@ User Id,First name,Middle initial,Last name
 3458,yang,,wang
 3459,Yun,,Huang
 3473,R.,Stuart,Geiger
-3474,Aaron,Lee,Halfaker
 3490,Aditya,,Vishwanath
 3491,Arkadeep,,Kumar
 3492,Aman,,Mangal
@@ -902,11 +896,8 @@ User Id,First name,Middle initial,Last name
 4723,Eden,,Litt
 4724,S.,Shyam,Sundar
 4725,Penny,,Trieu
-4738,Elizabeth,M.,Gerber
 4740,Mary,,Gray
 4741,Adam,,Marcus
-4753,Casey,,Fielsler
-4755,Robert,E.,Kraut
 4757,Cosmin,,Munteanu
 4758,Katie,,Shilton
 4769,Cleidson,R. B.,de Souza
@@ -914,44 +905,35 @@ User Id,First name,Middle initial,Last name
 4771,Francisco,J.,Gutierrez
 4772,Laura,S.,Gaytán-Lugo
 4773,Marcos,,Borges
-4785,Kathleen,H.,Pine
 4788,Gunnar,,Ellingsen
 4789,Miria,,Grisot
 4791,Naja,Holten,Møller
 4801,Henrik,,Mucha
-4802,Carsten,,Röcker
+4802,Carsten,,Rocker
 4804,Corinna,,Ogonowski
 4805,Martin,,Stein
 4806,Sebastian,,Robert
 4807,Lukas,,Galla
-4808,Martin,,Hill 
+4808,Martin,,Hill
 4817,Karla,,Badillo-Urquiola
 4818,Yaxing,,Yao
 4819,Oshrat,,Ayalon
 4821,Xinru,,Page
 4822,Eran,,Toch
 4823,Yang,,Wang
-4824,Pamela,,Wisniewski
 4833,Juan,Fernando,Maestre
-4834,Elizabeth,,Eikey
 4836,Jessica,,Pater
-4838,Svetlana,“Lana”,Yarosh
 4839,Gabriela,,Marcu
 4850,Christoph,,Lutz
 4851,Gemma,,Newlands
 4852,Ann,,Light
 4853,Nicole,,Immorlica
-4865,Christine,T.,Wolf
 4868,Min,Kyung,Lee
 4881,Taryn,,Bipat
-4882,Sue,,Fussell
-4884,Charles,,Kiene
-4885,David,,McDonald
 4897,Austin,,Toombs
 4898,Laura,,Devendorf
 4900,Liz ,,Kaziunas
 4901,David,,Nemer
-4902,Helena ,,Mentis
 4903,Laura,,Forlano
 4913,Matti,,Nelimarkka
 4914,Antti,,Salovaara
@@ -966,24 +948,18 @@ User Id,First name,Middle initial,Last name
 4933,Zachary,O.,Toups
 4948,Matthew,J.,Bietz
 4949,Mark,,Matthews
-4950,Sean,,Munson
-4951,Laura,,Pina
 4961,Michaelanne,,Dye
 4963,Ari,,Schlesinger
 4966,Rajesh,,Veeraraghavan
 4968,Jacki,,O’Neill
-4969,Mary,L.,Gray
-4977,Robin,,Brewer
 4978,Leah,,Findlater
 4979,Jofish,,Kaye
-4980,Walter,,Lasecki
 4982,Astrid,,Weber
 4993,Jean,,Hardy
 4994,Dharma,,Dailey
 4995,Susan,,Wyche
 5041,Emily ,,Bell
 5121,Natasha,Dow,Schüll
-5139,Matthew,,Bietz
 5140,Bryan,,Seamaan
 5141,Mark,,Whiting
 5142,Thomas,,Olsson
@@ -996,22 +972,11 @@ User Id,First name,Middle initial,Last name
 5154,Ana,,Cristina Bicharra Garcia
 5156,Derrick,,Cogburn
 5158,Bob,,Kraut
-5159,John,,Carroll
 5160,Shion,,Guha
 5161,Jason,,Wiese
-5171,Robert,,Kraut
-5174,Cleidson,,de Souza
-5176,Francisco,,Gutierrez
 5177,Laura,,Gaytan-Lugo
-5179,Kathleen,,Pine
-5183,Carsten,,Rocker
-5188,Martin,,Hill
 5197,Juan,,Fernando Maestre
-5199,Patrick,,Shih
 5204,Min,,Kyung Lee
-5210,Liz,,Kaziunas
-5218,Kenton,,O'Hara
-5219,Sultan,,Alharthi
-5221,William,,A. Hamilton
-5222,Elizabeth,,Bonsignore
-5223,Zachary,,Toups
+5206,Sue,,Fussell
+5217,Kenton,,O'Hara
+5220,William,,A. Hamilton

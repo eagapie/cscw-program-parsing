@@ -42,7 +42,7 @@ def generate_author_list(row):
     for item_people in people_list:
         for item_author in author_list:
             if (item_author["First name"] == item_people["First name"] and
-                item_author["Middle initial"] == item_people["Middle initial"] and
+                #item_author["Middle initial"] == item_people["Middle initial"] and
                 item_author["Last name"] == item_people["Last name"]):
                 # append author id to the list of author ids
                 author_ids = item_people["User Id"] + ";" + author_ids
@@ -88,7 +88,7 @@ def write_papers_file(paper_list):
 def is_new_entry_in_author_list(new_author, author_list):
     for item in author_list:
         if(new_author["First name"] == item["First name"] and
-            new_author["Middle initial"] == item["Middle initial"] and
+            # new_author["Middle initial"] == item["Middle initial"] and
             new_author["Last name"] == item["Last name"]):
             return False # this author has been found, return false
 
@@ -198,7 +198,6 @@ def get_author_affiliation(acm_affiliations, first_name, last_name):
             if (item != "NA"):
                 if((first_name in item) and (last_name in item)):
                     temp_affiliation = item.split(":")  # separates
-                    print(temp_affiliation)
                     if(len(temp_affiliation) > 1):
                         affiliation = temp_affiliation[1]
                     else:
@@ -270,7 +269,6 @@ def write_affiliations_file_old(paper_list):
             new_row["Paper Id"] = row["Paper Number"]
             new_row["User Id"] = get_first_author_id(row["Paper Number"])
             new_row["Institution"] = parse_affiliations(row["ACM Author Affiliations"], row["Paper Number"])
-            print(new_row["Institution"])
             writer_affiliations.writerow(new_row)
 
 def initialize_session(session_id):
@@ -320,8 +318,8 @@ def get_chair_id(first_name, last_name):
             people_list.append(row)
 
     for item_people in people_list:
-        if (first_name == item_people["First name"] and
-            last_name == item_people["Last name"]):
+        if (first_name.strip(" ") == item_people["First name"].strip(" ") and
+            last_name.strip(" ") == item_people["Last name"].strip(" ")):
             # append author id to the list of author ids
             return item_people["User Id"]
 
@@ -339,8 +337,8 @@ def get_author_id(first_name, last_name):
             people_list.append(row)
 
     for item_people in people_list:
-        if (first_name == item_people["First name"] and
-            last_name == item_people["Last name"]):
+        if (first_name.strip(" ") == item_people["First name"].strip(" ") and
+            last_name.strip(" ") == item_people["Last name"].strip(" ")):
             # append author id to the list of author ids
             return item_people["User Id"]
 
@@ -375,7 +373,6 @@ def get_sessions_with_chair_names_dict():
                     # each name gets parsed in first and last name
                     chair_name = item_chair.split(" ")
                     chair_id = get_chair_id(chair_name[0], chair_name[1])
-                    print(chair_id + " " + chair_name[0] + " " + chair_name[1])
                     chairs_dict[item["Session ID"]]["Session Chair Ids"] = chair_id + ";" + chairs_dict[item["Session ID"]]["Session Chair Ids"]
 
 
