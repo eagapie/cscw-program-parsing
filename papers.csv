@@ -307,10 +307,66 @@ conflict and experience.",Papers,,4257;4258;3857;4260;4261
 9283,"""Who Has Plots?"": Contextualizing Scientific Software, Practice, and Visualizations","Software is an integral element of the work of science yet it is not commonly an object of inquiry in studies of scientific infrastructures. This paper presents findings from an ethnographic study of a cosmology group’s collaborative scientific software production. We demonstrate how these cosmologists use plots to simultaneously test their software and analyze data while interrogating multiple layers of infrastructural components. We broaden perspectives on scientific software development using a sociotechnical, software studies lens to examine this work of scientific discovery as a creative and embodied, yet exacting and methodical, activity that requires a ‘human in the loop’. We offer a new reading of scientific software practices to convey how creating scientific software is often really the act of doing science itself—an intervention we believe is necessary to more successfully support scientific software sharing and infrastructure production.",Papers,,4657;4658
 9287,Two sides to every story: Mitigating intercultural conflict through automated feedback and shared self-reflections in global virtual teams,"Global virtual teams experience intercultural conflict. Yet, research on how Computer-Mediated Communication (CMC) tools can mitigate such conflict is minimal. We conducted an experiment with 30 Japanese-Canadian dyads who completed a negotiation task over email. Dyads were assigned to one of three conditions: C1) no feedback; C2) automated language feedback of participant emails based on national culture dimensions; and C3) automated language feedback (as in C2), and participants’ shared self-reflections of that feedback. Results show Japanese and Canadian partners interpreted the negotiation task differently, resulting in perceptions of intercultural conflict and negative impressions of their partner. Compared to C1, automated language feedback (C2) and shared self-reflections (C3) made cultural differences more salient, motivating participants to empathize with their partner. Shared self-reflections (C3) served as a meta-channel to communication, providing insight into each partner’s intentions and cultural values. We discuss implications for CMC tools to mitigate perceptions of intercultural conflict.",Papers,,4673;1778;4675;4676;4677;4678
 9293,Korero: Facilitating Complex Referencing of Visual Materials in Asynchronous Discussion Interface,"In asynchronous online discussions, users actively reference visual materials (e.g., video, document) to provide supporting evidence and additional context. However, creating and comprehending complex references can be challenging, especially when there are multiple referents to refer, or when a referent is highly specific (e.g., specific sentences in a paper rather than the paper as a whole). To identify users’ challenges in making references with multiple and specific referents while using existing discussion tools, we conducted an observational study and a preliminary interview. Based on the design lessons, we built Korero, a discussion interface that aims to facilitate complex referencing actions. For evaluation, we compared Korero against conventional interfaces in two user studies with referencing tasks of different referential difficulty. We found that Korero not only significantly reduces the time and effort in making references with multiple and specific referents, but also shows potential in increasing users’ engagement with the discussion and referent materials.",Papers,,4689;4690;4691;51;4693
-9294,Panel: Online Fandom: Boldly Going Where Few CSCW Researchers Have Gone Before,NA,Papers,,4705;4706;4707;4708;98
-9295,Panel: Without a Trace: How Studying Invisible Interactions Can Help Us Understand Social Media,NA,Papers,,4721;4722;4723;4724;4725
-9296,Panel: Computer-Supported Career Development in The Future of Work,NA,Papers,,1649;468;2129;4740;4741;1793
-9297,Panel: CSCW Research Ethics and Regulation: An Open Forum,NA,Papers,,98;2341;2964;2386;4757;4758
+9294,Panel: Online Fandom: Boldly Going Where Few CSCW Researchers Have Gone Before,"Communities focused on creating and sharing fanworks have existed
+since before the internet, but have thrived in the presence of online
+platforms. From young people learning literacy skills through writing
+fanfiction about their favorite media to complex infrastructural work
+in fans creating their own platforms to longstanding social norms
+that promote inclusivity, these communities showcase many core
+interests of CSCW—however, there has been little research focused
+on fan creation and communities within social computing and HCI.
+This panel brings together scholars who have conducted research
+related to online fandom communities to discuss their experiences,
+the challenges they have faced, and the vast opportunity for more
+work in this area from a range of perspectives.",Papers,,4705;4706;4707;4708;98
+9295,Panel: Without a Trace: How Studying Invisible Interactions Can Help Us Understand Social Media,"Scholars studying social media have embraced the
+opportunities afforded by behavioral data captured by online
+tools to explore the implications of platform use for outcomes
+such as well-being, relationship maintenance, and perceptions
+of social capital. However, the prevalence of these methods
+demand that we consider their potential limitations and the
+question of how to best combine them with more traditional
+methods, such as self-report surveys. For this panel, scholars
+will share brief presentations then engage with the audience,
+and each other, to identify concerns, opportunities, and best
+practices. Guiding questions include: What is lost when we
+rely exclusively on click-based data? How can researchers
+better measure and account for “invisible” interactions such as
+exchanges that are triggered by social media, but occur in other
+channels? What principles are important to bear in mind as we
+attempt to capture, document, and understand contemporary
+social media practices?",Papers,,4721;4722;4723;4724;4725
+9296,Panel: Computer-Supported Career Development in The Future of Work,"As people increasingly work different jobs, the responsibility of
+building long-term career satisfaction and stability increasingly
+falls more on the workers rather than individual employers. With
+technologies playing a central role in how people choose and
+access employment opportunities, it is necessary to understand
+how online technologies are shaping career development. This
+panel brings together leading human-computer interaction
+researchers and industry members who have worked with
+systems and people across the socio-economic spectrum during
+the career development process. We will discuss questions, such
+as, Under what conditions do online technologies impact people’s
+career mobility and satisfaction? How have design features of
+online platforms (e.g. algorithms, user affordances) created
+more or less equitable opportunities for career development?
+How have online technologies changed how people learn new
+skills for their jobs?",Papers,,1649;468;2129;4740;4741;1793
+9297,Panel: CSCW Research Ethics and Regulation: An Open Forum,"An ongoing challenge within the diverse HCI and social computing
+research communities is understanding research ethics in
+the face of evolving technology and methods. Building upon
+successful town hall meetings at ACM conferences including
+CSCW, CHI, GROUP, and IDC, this panel will be structured to
+facilitate audience discussion and to collect input about current
+challenges and processes. It will be led by members of the SIGCHI
+Research Ethics Committee. We will pose open questions and
+invite audience discussion of practices centered around issues
+such as recent changes to regulatory requirements (GDPR,
+US Institutional Review Boards), and cultural and disciplinary
+differences in ethical practices. There will also be discussion of
+how research ethical issues should be handled in SIGCHI paper
+submission and review processes, and how we might create and
+disseminate ethics resources.",Papers,,98;2341;2964;2386;4757;4758
 9400,Workshop: Latin America as a Place for CSCW Research,"Inspired by the ACM SIGCHI Across Borders Initiative, this workshop focuses on ongoing CSCW research in, or about, Latin America. We seek to position Latin America as the common context that unites students, academic and industry researchers who participate in the workshop.",Papers,,4769;4770;4771;4772;4773;4706
 9401,"Workshop: Data Work in Healthcare: Challenges for Patients, Clinicians and ...","With the wide adoption of information infrastructures in healthcare (IIH), citizens and healthcare professionals now carry out intensive ‘data work’ as part of their healthcare and self-management practices. For example, citizens use mobile apps to track personal health data for both formal and informal usages, clinicians rely on electronic health records (EHR) to document patient information, and hospital administrators use EHRs to generate data to monitor quality and efficiency of healthcare services. The creation, accumulation, management, and communication of data is increasingly central to patient work, clinical work, and management and governance of healthcare providers. To better understand data work in healthcare, this workshop aims to convene researchers from different disciplines to discuss data work performed among the entire ecosystem of clinical care delivery from patients to clinicians to administrators.",Papers,,3844;1954;821;4788;4789;1204;4791
 9402,Workshop: The Industrial Internet of Things: New Perspectives on HCI and CSCW ...,"Digital products and services are commonplace in our personal lives where software and its algorithms provide assistance and amenities. However, interactive systems within industrial settings have yet to catch up with consumer products, especially with regard to the quality of interaction and user experience. With the rise of automation and data exchange on massive scales, the role of human work is challenged and the importance of cooperation emphasised. New concepts of smart factories in which machines and software are doing parts of the work tasks emerge, drastically altering the nature of work in industrial settings from manual labor to increasingly complex tasks. HCI and especially CSCW offer concepts, technical tools and methods to cope with this disruptive shift towards an Industrial Internet of Things (IIoT).",Papers,,4801;4802;2193;4804;4805;4806;4807;4808;1126
