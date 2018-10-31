@@ -39,13 +39,13 @@ def generate_author_list(row):
 
     author_ids = ""
     # get the author id from people list
-    for item_people in people_list:
-        for item_author in author_list:
+    for item_author in author_list:
+        for item_people in people_list:
             if (item_author["First name"] == item_people["First name"] and
                 #item_author["Middle initial"] == item_people["Middle initial"] and
                 item_author["Last name"] == item_people["Last name"]):
                 # append author id to the list of author ids
-                author_ids = item_people["User Id"] + ";" + author_ids
+                author_ids = author_ids + ";" + item_people["User Id"]
 
     # strip the last semicolon
     author_ids = author_ids.strip(";")
@@ -81,7 +81,7 @@ def write_papers_file(paper_list):
             new_row["Abstract"] = row["Abstract"]
             new_row["Type"] = "Papers" # Mauro said:  you can set it all to "paper".
             new_row["Award"] = row["Award"]
-            new_row["Author ID"] = generate_author_list(row)
+            new_row["Author ID"] = generate_author_list(row).strip(";")
             writer_papers.writerow(new_row)
 
 # check if the new author exists in the author list already or # NOTE:

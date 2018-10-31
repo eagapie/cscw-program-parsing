@@ -29,7 +29,7 @@ Session ID,Name,Type,Date (yyyy-MM-dd),Start time (HH:mm in 24-h format),End tim
 50,Privacy and Security,Papers,2018-11-07,9:00,10:30,Riverside,9033;9032;9031;9030;9034,787
 3,Hashtags and Social Movements,Papers,2018-11-05,11:00,12:30,Riverside,9260;9259;9262;9261;9263,3316
 12,Research Methods,Papers,2018-11-05,14:30,16:00,Palisades,9150;9151;9152;9149;9153,5148
-55,Credibility and Misinformation,Papers,2018-11-07,11:00,12:30,Liberty,9095;9096;9094;9098;9097,1297
+55,Credibility and Misinformation,Papers,2018-11-07,11:00,12:30,Liberty,9095;9096;9094;9098;9097,
 63,Online Discussion and Engagement,Papers,2018-11-07,14:30,16:00,Palisades,9112;9110;9109;9111;9113,4836
 25,Feminist Perspectives,Papers,2018-11-06,9:00,10:30,"Hudson I,II,III",9108;9106;9104;9105;9107,531
 21,Privacy in Social Media,Papers,2018-11-05,16:30,18:00,"Hudson IV,V,VI",9039;9035;9037;9038;9036,1730
@@ -48,37 +48,37 @@ Session ID,Name,Type,Date (yyyy-MM-dd),Start time (HH:mm in 24-h format),End tim
 14,"Children, Teens, and Young Adults",Papers,2018-11-05,14:30,16:00,Harborside II,9203;9199;9202;9200;9201,481
 52,Disability and Accessibility,Papers,2018-11-07,11:00,12:30,Palisades,9014;9013;9011;9010;9012,5156
 62,Sharing and Collaboration,Papers,2018-11-07,14:30,16:00,Liberty,9220;9219;9222;9223;9221,3459
-56,Norms and Rules in Online Communities,Papers,2018-11-07,11:00,12:30,"Hudson IV,V,VI",9256;9254;9255;9257;9258,5158
+56,Norms and Rules in Online Communities,Papers,2018-11-07,11:00,12:30,"Hudson IV,V,VI",9256;9254;9255;9257;9258,
 5,Language and Linguistics,Papers,2018-11-05,11:00,12:30,"Hudson IV,V,VI",9205;9204;9208;9207;9206,2722
 11,Civic engagement and Hacking,Papers,2018-11-05,14:30,16:00,Liberty,9117;9116;9115;9114;9118,3189
 20,Organizational Perspectives,Papers,2018-11-05,16:30,18:00,Harborside I,9269;9271;9272;9270;9273,2609
 32,Wikipedia,Papers,2018-11-06,11:00,12:30,Riverside,9197;9194;9198;9196;9195,
-4,Online Harassment and Content Moderation,Papers,2018-11-05,11:00,12:30,Palisades,9176;9174;9175;9178;9177,5160
+4,Online Harassment and Content Moderation,Papers,2018-11-05,11:00,12:30,Palisades,9176;9174;9175;9178;9177,5159
 58,Conceptual Horizons,Papers,2018-11-07,14:30,16:00,Harborside I,9017;9015;9019;9018;9016,2497
-2,Health and Self-Tracking,Papers,2018-11-05,11:00,12:30,Harborside II,9075;9074;9078;9077;9076,5161
+2,Health and Self-Tracking,Papers,2018-11-05,11:00,12:30,Harborside II,9075;9074;9078;9077;9076,5160
 33,Information Sharing,Papers,2018-11-06,11:00,12:30,Harborside I,9091;9089;9092;9093;9090,3459
 22,Feedback and Sense-Making,Papers,2018-11-06,9:00,10:30,Harborside I,9004;9002;9001;9000;9003,306
 7,Panel: Online Fandom: Boldly Going Where Few CSCW Researchers Have Gone Before,Papers,2018-11-05,11:00,12:30,"Hudson I,II,III",9294,98;4708;4707;4706;4705
 57,Panel: Without a Trace: How Studying Invisible Interactions Can Help Us Understand Social Media,Papers,2018-11-07,11:00,12:30,"Hudson I,II,III",9295,4725; ;4723;4722;4721
-64,Panel: Computer-Supported Career Development in The Future of Work,Panel,2018-11-07,14:30,16:00,"Hudson I,II,III",9296,1793;4741;4740;2129;468;1649
+64,Panel: Computer-Supported Career Development in The Future of Work,Panel,2018-11-07,14:30,16:00,"Hudson I,II,III",9296,
 35,Panel: CSCW Research Ethics and Regulation: An Open Forum,Papers,2018-11-06,11:00,12:30,"Hudson I,II,III",9297,4758;4757;2386;2964;2341;98
-65,Workshop: Latin America as a Place for CSCW Research,Workshop,2018-11-03,9:00,17:00,Pallisades II,9400,4706;4773;4772;4771;4770;
-66,"Workshop: Data Work in Healthcare: Challenges for Patients, Clinicians and ...",Workshop,2018-11-03,9:00,17:00,Palisades I,9401, ;1204;4789;4788;821;1954;3844
-67,Workshop: The Industrial Internet of Things: New Perspectives on HCI and CSCW ...,Workshop,2018-11-03,9:00,17:00,Liberty II,9402,1126;4808;4807;4806;4805;4804;2193;4802;4801
-68,Workshop: Privacy in Context: Critically Engaging Theories to Guide Privacy Research ...,Workshop,2018-11-03,9:00,17:00,Liberty III,9403,4274;4823;4822;4821;3411;4819;4818;4817
-69,"Workshop: Conducting Research with Stigmatized Populations: Practices, Challenges ...",Workshop,2018-11-03,9:00,17:00,Liberty I,9404,1425;4836;865;2851;
-70,"Workshop: Power Struggles in the Digital Economy: Platforms, Workers, and Markets",Workshop,2018-11-03,9:00,17:00,Harborside II,9405,4853;4852;4851;4850;1
-71,"Workshop: The Changing Contours of “Participation” in Data-driven, Algorithmic ...",Workshop,2018-11-03,9:00,17:00,Harborside I,9406,99; ;4707;916;2609
-72,Workshop: Navigating the Challenges of Multi-Site Research,Workshop,2018-11-03,9:00,17:00,Manhattan I,9407,4019;1459;1089;467;5206;4881
-73,Workshop: Sociotechnical Systems of Care,Workshop,2018-11-04,9:00,17:00,Palissades II,9408,4901;4900;4083;4898;4897
-74,Workshop: Hybrid events: mediating collocated participation,Workshop,2018-11-04,9:00,17:00,Palisades I,9409,5217;4918;4917;2787;4915;4914;4913
-75,Workshop: Collaborative Mixed Reality Games,Workshop,2018-11-04,9:00,17:00,Lyberty II,9410,4933;4932;4931;4930;4929
-76,"Workshop: Social Issues in Personal Informatics: Design, Data, and Infrastructure",Workshop,2018-11-04,9:00,17:00,Liberty III,9411,1569;4483;4949;4948;1860;1861;1857
-77,Workshop: Solidarity Across Borders: Navigating Intersections Towards Equity and ...,Workshop,2018-11-04,9:00,17:00,Liberty I,9412,4740;1049;1043;4966;481;3985;4963;531;4961
-78,Workshop: Accessible Voice Interfaces,Workshop,2018-11-04,9:00,17:00,Harborside II,9413,4982;4757;2455;4979;4978;1046
-87,Workshop: Rural Computing: Beyond Access and Infrastructure,Workshop,2018-11-04,9:00,17:00,Harborside I,9414, ;4995;4994;4993
+65,Workshop: Latin America as a Place for CSCW Research,Workshop,2018-11-03,9:00,17:00,Pallisades II,9400,
+66,"Workshop: Data Work in Healthcare: Challenges for Patients, Clinicians and Administrators",Workshop,2018-11-03,9:00,17:00,Palisades I,9401,
+67,Workshop: The Industrial Internet of Things: New Perspectives on HCI and CSCW ...,Workshop,2018-11-03,9:00,17:00,Liberty II,9402,
+68,Workshop: Privacy in Context: Critically Engaging Theories to Guide Privacy Research ...,Workshop,2018-11-03,9:00,17:00,Liberty III,9403,
+69,"Workshop: Conducting Research with Stigmatized Populations: Practices, Challenges ...",Workshop,2018-11-03,9:00,17:00,Liberty I,9404,
+70,"Workshop: Power Struggles in the Digital Economy: Platforms, Workers, and Markets",Workshop,2018-11-03,9:00,17:00,Harborside II,9405,
+71,"Workshop: The Changing Contours of “Participation” in Data-driven, Algorithmic ...",Workshop,2018-11-03,9:00,17:00,Harborside I,9406,
+72,Workshop: Navigating the Challenges of Multi-Site Research,Workshop,2018-11-03,9:00,17:00,Manhattan I,9407,
+73,Workshop: Sociotechnical Systems of Care,Workshop,2018-11-04,9:00,17:00,Palissades II,9408,
+74,Workshop: Hybrid events: mediating collocated participation,Workshop,2018-11-04,9:00,17:00,Palisades I,9409,
+75,Workshop: Collaborative Mixed Reality Games,Workshop,2018-11-04,9:00,17:00,Lyberty II,9410,
+76,"Workshop: Social Issues in Personal Informatics: Design, Data, and Infrastructure",Workshop,2018-11-04,9:00,17:00,Liberty III,9411,
+77,Workshop: Solidarity Across Borders: Navigating Intersections Towards Equity and ...,Workshop,2018-11-04,9:00,17:00,Liberty I,9412,
+78,Workshop: Accessible Voice Interfaces,Workshop,2018-11-04,9:00,17:00,Harborside II,9413,
+87,Workshop: Rural Computing: Beyond Access and Infrastructure,Workshop,2018-11-04,9:00,17:00,Harborside I,9414,
 79,Doctoral Colloquium,Doctoral Colloquium,2018-11-04,9:00,18:00,Manhattan I,9415,
-80,Welcome: Drinks and Meetup,Reception,2018-11-04,18:00,20:00,Manhattan Ballroom and Prefunction,, 
+80,Welcome: Drinks and Meetup,Reception,2018-11-04,18:00,20:00,Manhattan Ballroom and Prefunction,,
 81,Opening and Keynote (Emily Bell and & Julia Angwin),Plenary,2018-11-05,9:00,10:30,Hudson Ballroom,,
 82,Interactive Posters and Demos Reception,Posters,2018-11-05,18:00,20:00,Manhattan Ballroom and Prefunction,,
 83,Town Hall Meeting,Town Hall,2018-11-06,13:30,14:30,Hudson Ballroom,,

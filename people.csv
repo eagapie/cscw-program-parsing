@@ -324,7 +324,7 @@ User Id,First name,Middle initial,Last name
 1489,Ayse,G.,Buyuktur
 1490,Pei-Yao,,Hung
 1491,Mark W.,,Newman
-1492,Mark ,S.,Ackerman
+1492,Mark,S.,Ackerman
 1505,Amanda,,Lazar
 1506,Hilaire,,Thompson
 1507,Shih-Yin,,Lin
@@ -605,13 +605,14 @@ User Id,First name,Middle initial,Last name
 2961,Yla,,Tausczik
 2962,Rosta,,Farzan
 2963,John,,Levine
-2964,Robert ,,Kraut
+2964,Robert,,Kraut
 2977,Shad,,Gross
-2980, Michael,,Stallings
+2980,Michael,,Stallings
 2993,Sofie,,Pilemalm
 3010,Neal ,,Reeves
 3011,Todd,,Lynes
 3012,Ramine,,Tinati
+3026,Sucheta,,Ghoshal
 3074,Darren,,Gergle
 3089,Sneha,R. Krishna ,Kumaran
 3090, Deana,,McDonagh
@@ -724,13 +725,12 @@ User Id,First name,Middle initial,Last name
 3700,Tad,,Hirsch
 3701,Evette,,Ludman
 3702,Edward,,Wagner
+3703,James,,Ralston
 3713,Ha,Kyung,Kong
 3714,John,,Lee
-3719,James,,Ralston
 3729,Shriti,,Raj
 3730,Mark,W.,Newman
 3731,Joyce,M.,Lee
-3732,Mark,S.,Ackerman
 3745,Alex,,Leavitt
 3746,John,J,Robinson
 3761,Susan,E,McGregor
@@ -803,7 +803,6 @@ User Id,First name,Middle initial,Last name
 4130,Jill,,Dimond
 4131,Sarita,,Schoenebeck
 4145,Miaomiao,,Wen
-4162,Robert,E,Kraut
 4177,Abhijnan,,Chakraborty
 4178,Rajdeep,,Sarkar
 4179,Ayushi,,Mrigen
@@ -971,12 +970,10 @@ User Id,First name,Middle initial,Last name
 5153,Nitesh,,Goyal
 5154,Ana,,Cristina Bicharra Garcia
 5156,Derrick,,Cogburn
-5158,Bob,,Kraut
-5160,Shion,,Guha
-5161,Jason,,Wiese
-5177,Laura,,Gaytan-Lugo
-5197,Juan,,Fernando Maestre
-5204,Min,,Kyung Lee
-5206,Sue,,Fussell
-5217,Kenton,,O'Hara
-5220,William,,A. Hamilton
+5159,Shion,,Guha
+5160,Jason,,Wiese
+5175,Laura,,Gaytan-Lugo
+5195,Juan,,Fernando Maestre
+5202,Min,,Kyung Lee
+5214,Kenton,,O'Hara
+5217,William,,A. Hamilton
